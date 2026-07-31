@@ -1,0 +1,113 @@
+﻿@model PaginatedList<ServicePlatform.Models.ClickEventAuthorization>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h3>Index</h3>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+
+@using (Html.BeginForm("Index", "ClickEventAuthorizations", FormMethod.Get))
+{
+    <div class="row">
+        <div class="col-md-3">
+            <div class="form-group">
+                <label for="CurrentFilter">Search:</label>
+                <input type="text" name="CurrentFilter" class="form-control" value="@ViewBag.CurrentFilter" />
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label for="PageSize">Page Size:</label>
+                <input type="number" name="PageSize" id="pageSize" class="form-control" value="@ViewBag.PageSize" />
+            </div>
+        </div>
+        <div class="col-md-3 d-flex align-items-end">
+            <button type="submit" class="btn btn-primary">Search</button>
+            <p class="m-1"> | </p>
+            <a asp-action="Index" class="m-1">Back to Full List</a>
+        </div>
+    </div>
+}
+
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.First().ApplicationUser.UserName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().ControllerName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().ActionName)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ApplicationUser.Email)
+                </td>
+                <td>
+                @Html.DisplayFor(modelItem => item.ControllerName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ActionName)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+
+
+@{
+    var prevDisabled = !Model.HasPreviousPage ? "disabled" : "";
+    var nextDisabled = !Model.HasNextPage ? "disabled" : "";
+}
+
+<a asp-action="Index"
+   asp-route-CurrentFilter="@ViewBag.CurrentFilter"
+   asp-route-PageSize="@ViewBag.PageSize"
+   asp-route-pageNumber="@(Model.PageIndex - 1)"
+   class="btn btn-secondary @prevDisabled">
+    Previous
+</a>
+
+<a asp-action="Index"
+   asp-route-CurrentFilter="@ViewBag.CurrentFilter"
+   asp-route-PageSize="@ViewBag.PageSize"
+   asp-route-pageNumber="@(Model.PageIndex + 1)"
+   class="btn btn-secondary @nextDisabled">
+    Next
+</a>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $("#pageSize").change(function () {
+                $("form").submit(); // Submit the form after updating page size
+            });
+        });
+    </script>
+}
+

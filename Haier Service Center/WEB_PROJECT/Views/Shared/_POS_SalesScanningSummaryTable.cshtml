@@ -1,0 +1,85 @@
+﻿@model IEnumerable<ServicePlatform.Models.POS_SalesScanningSummary>
+
+
+<link href="~/css/customTable.css" rel="stylesheet" type="text/css" />
+
+<style>
+.custom-table {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+
+.custom-table thead {
+    background-color: #343a40;
+    color: white;
+}
+
+.custom-table th, .custom-table td {
+    padding: 8px;
+    text-align: left;
+	align-content: center;
+}
+
+.custom-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.custom-table tbody tr:hover {
+    background-color: #ddd;
+}
+
+.custom-table .deleteBtn {
+    padding: 4px 8px;
+    font-size: 12px;
+}
+
+</style>
+
+
+
+<table class="table table-bordered table-hover table-sm custom-table">
+	<thead class="thead-dark">
+		<tr>
+			<th>SNo</th>
+			<th>Article</th>
+			<th>Description</th>
+			<th>Brand</th>
+			<th>Size</th>
+			<th>Qty</th>
+			<th>Unit Price</th>
+			<th>Total</th>
+			<th hidden>Tax Value</th>
+			<th></th> <!-- Column for delete button -->
+		</tr>
+	</thead>
+	<tbody>
+		@{
+			int serialNumber = 1; // Initialize a counter for serial numbers
+		}
+		@foreach (var item in Model)
+		{
+			<tr>
+				<td data-label="SNo">@serialNumber</td>
+				<td data-label="Article">@item.Article</td>
+				<td data-label="Description">@item.ArticleDescription</td>
+				<td data-label="Brand">@item.ArticleBrand</td>
+				<td data-label="Size">@item.Size</td>
+				<td data-label="Qty">@item.Quantity</td>
+				<td data-label="Unit Price">@item.UnitPrice</td>
+				<td data-label="Total">@item.Total</td>
+				<td data-label="TaxValue" hidden>@item.TaxableValue</td>
+				<td data-label="Delete">
+					<button type="button" class="btn btn-danger btn-sm deleteBtn" data-id="@item.ID">
+						<i class="bi bi-trash"></i>
+					</button>
+				</td> <!-- Delete button -->
+			</tr>
+
+			serialNumber++; // Increment the counter
+		}
+	</tbody>
+</table>
+
+
+

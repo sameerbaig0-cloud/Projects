@@ -1,0 +1,47 @@
+﻿
+.print-container table {
+    border-collapse: collapse;
+    border-collapse: collapse;
+    padding: 0;
+    margin: 0;
+    border-top: inset;
+}
+
+
+.qrCodeImage img {
+    max-width: 65px;
+    max-height: 65px;
+}
+
+
+.print-data {
+    text-align: left;
+}
+
+@media print {
+    body * {
+        visibility: hidden;
+    }
+
+    #qrCodeContainer {
+        position: absolute;
+        left: 0;
+        top: 0;
+        margin: 0;
+        padding: 0;
+    }
+
+    .print-container, .print-container * {
+        visibility: visible;
+    }
+
+    .print-container {
+        position: relative;
+        width: 75px;
+        height: 65px;
+        padding: 0;
+        margin: 0;
+        page-break-after: auto; /* Ensures each table starts on a new page */
+        page-break-inside: auto; /* Prevents page breaks inside the container */
+    }
+}

@@ -1,0 +1,785 @@
+﻿@model ServicePlatform.Models.POS_Sales
+
+@{
+	ViewData["Title"] = "POS - Invoice";
+	// Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@*Load CSS for Editable Select - BEGIN *@
+<link href="~/lib/jquery-select/css/select2.min.css" rel="stylesheet" />
+@*Load CSS for Editable Select - END *@
+
+
+<style>
+	.custom-spacing {
+		margin-right: 10px;
+		margin-bottom: 10px;
+	}
+</style>
+
+
+<style>
+	.group-box {
+		border: 1px solid #ccc; /* Border style */
+		border-radius: 5px; /* Rounded corners */
+		margin-bottom: 15px; /* Space between group boxes */
+	}
+
+	.group-header {
+		background-color: #085b16; /* Header background color */
+		font-variant-caps: petite-caps;
+		color: cornsilk;
+		padding: 5px; /* Header padding */
+		cursor: pointer; /* Cursor style */
+		opacity: 96%;
+	}
+
+	.expand-collapse-icon {
+		float: right; /* Align icon to the right */
+	}
+
+	.content {
+		padding: 8px; /* Spacing inside the group box */
+		display: none; /* Initially hide content */
+	}
+</style>
+
+
+<h4>Point of Sale - Invoice</h4>
+<hr />
+<div class="row">
+	<div class="col-md-18">
+		<form id="invoiceForm" data-unobtrusive-ajax="true">
+			@Html.AntiForgeryToken()
+			@* <form asp-action="Create" id="invoiceForm"> *@
+			<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+			@Html.ValidationSummary()
+
+			@*  CUSTOMER INFORMATION  -  STARTS *@
+			<div class="group-box">
+				<div class="group-header">
+					<span class="expand-collapse-icon">▼</span> <!-- Default to down arrow -->
+					Customer Information
+				</div>
+				<div class="content">
+					<div class="form-group row">
+
+						<div class="input-group row-cols-xxl-4">
+							<div class="custom-spacing">
+								<label asp-for="Customer.Phone" class="control-label small">Mobile Number</label>
+								<div class="input-group">
+									<input asp-for="Customer.Phone" id="lstCustomerMobile" type="text" class="form-control form-control-sm"
+										   placeholder="Enter Customer Phone Number">
+									<button class="btn btn-secondary btn-sm" type="button" onclick="GetCustomerDetails()">
+										<i class="bi bi-search"></i>
+									</button>
+								</div>
+							</div>
+
+							<div class="custom-spacing">
+								<label asp-for="Customer.FirstName" class="control-label  small">First Name</label>
+								<input asp-for="Customer.FirstName" id="lstCustomerFName" type="text" class="form-control form-control-sm" disabled placeholder="Enter Customer First Name" />
+							</div>
+
+							<div class="custom-spacing">
+								<label asp-for="Customer.LastName" class="control-label">Last Name</label>
+								<input asp-for="Customer.LastName" id="lstCustomerLName" type="text" class="form-control form-control-sm" disabled placeholder="Enter Customer Last Name" />
+							</div>
+						</div>
+
+
+						<div class="input-group row-cols-xxl-3">
+							<div class="custom-spacing">
+								<label asp-for="Customer.Address" class="control-label"></label>
+								<input asp-for="Customer.Address" id="lstCustomerAddress" type="text" class="form-control form-control-sm" disabled placeholder="Enter Customer Address" />
+							</div>
+
+							<div class="custom-spacing">
+								<label asp-for="Customer.Email" class="control-label"></label>
+								<input asp-for="Customer.Email" id="lstCustomerMail" type="text" class="form-control form-control-sm"
+									   disabled placeholder="Enter Customer Email ID" data-val="true" data-val-email="Invalid email address" />
+								<span asp-validation-for="Customer.Email" class="text-danger"></span>
+							</div>
+						</div>
+
+						<div>
+							<button type="button" id="createCust" class="btn btn-primary btn-sm" onclick="insCustomerinfo()" style="display:none">
+								Create Customer
+							</button>
+						</div>
+
+					</div>
+				</div>
+			</div>
+			@*  CUSTOMER INFORMATION  -  ENDS *@
+
+
+
+			@*  INVOICING -  STARTS *@
+			<div class="group-box">
+				<div class="group-header">
+					<span class="expand-collapse-icon">▼</span> <!-- Default to down arrow -->
+					Invoice Details
+				</div>
+				<div class="content">
+					<div class="form-group row">
+						@* 						<div id="result" style="display: none"></div>
+						*@						<div id="partialViewContainer">
+							@* The partial view will be loaded here *@
+							@* @Html.Partial("_POS_SalesScanningSummaryTable") *@
+						</div>
+					</div>
+				</div>
+			</div>
+			@*  INVOICING  -  ENDS *@
+
+
+			<div class="d-flex justify-content-end">
+				<div class="col-md-5">
+					<!-- Payment Type -->
+					<div class="form-group row">
+						<label asp-for="PaymentType.Name" class="col-sm-4 col-form-label"></label>
+						<div class="col-sm-8">
+							<select asp-for="PaymentType.Name" id="lstPaymentType" class="select-items" class="form-control" asp-items="ViewBag.PaymentType">
+								<option value="" disabled selected>--Select Payment Type--</option>
+							</select>
+							<span asp-validation-for="PaymentType.Name" class="text-danger"></span>
+						</div>
+					</div>
+
+					<!-- Sub Total -->
+					<div class="form-group row">
+						<label asp-for="SubTotal" class="col-sm-4 col-form-label"></label>
+						<div class="col-sm-8">
+							<input asp-for="SubTotal" id="lstSubTotal" type="number" class="form-control form-control-sm" placeholder="Sub Total" disabled />
+							<span asp-validation-for="SubTotal" class="text-danger"></span>
+						</div>
+					</div>
+
+
+					<!-- Discount Percentage -->
+					<div class="form-group row">
+						<label asp-for="DiscountPercentage" class="col-sm-4 col-form-label"></label>
+						<div class="col-sm-8">
+							<div class="row">
+								<div class="col-sm-4">
+									<input asp-for="DiscountPercentage" id="lstDiscountPercentage" type="number" class="form-control form-control-sm" placeholder="Discount %" />
+								</div>
+								<div class="col-sm-8">
+									<input asp-for="DiscountPercentage" id="lstDiscountPercentageValue" type="number" class="form-control form-control-sm" placeholder="Discount Value" disabled />
+								</div>
+							</div>
+							<span asp-validation-for="DiscountPercentage" class="text-danger"></span>
+						</div>
+					</div>
+
+					<!-- Tax Percentage -->
+					<div class="form-group row">
+						<label class="col-sm-4 col-form-label">Tax </label>
+						<div class="col-sm-8">
+							@* <div class="row"> *@
+							@* 								<div class="col-sm-4">
+							<input asp-for="TaxPercentage" id="lstTaxPercentage" type="number" class="form-control form-control-sm" placeholder="Tax %" value="18.00" />
+							</div>
+							*@
+							<input id="lstTaxPercentageValue" type="number" class="form-control form-control-sm" placeholder="Tax Value" disabled />
+						</div>
+					</div>
+
+
+					<!-- Total -->
+					<div class="form-group row">
+						<label asp-for="NetTotal" class="col-sm-4 col-form-label"></label>
+						<div class="col-sm-8">
+							<input asp-for="NetTotal" id="lstNetTotal" type="number" class="form-control form-control-sm fw-bolder" placeholder="Net Amount" disabled />
+							<span asp-validation-for="NetTotal" class="text-danger"></span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<br />
+			<div class="form-group">
+				<button type="button" id="GenerateInvoice" onclick="createSalesInvoice()" class="btn btn-primary btn-sm">
+					Generate Invoice <i class="bi bi-file-text"></i>
+				</button>
+			</div>
+		</form>
+	</div>
+</div>
+
+
+<div>
+	<a asp-action="Index">Back to List</a>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="notFoundModal" tabindex="-1" aria-labelledby="notFoundModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="notFoundModalLabel">Message</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body">
+				<p id="messageText"></p>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+@section scripts {
+	@{
+
+
+
+		@*Load CSS for Editable Select - BEGIN *@
+		<script src="~/lib/jquery-select/js/select2.min.js"></script>
+		@*Load CSS for Editable Select - END *@
+
+		@*/* SCRIPT FOR DROPDOWNLIST - BEGINS */*@
+		<script>
+
+			//jQuery.noConflict(true);
+
+
+			$(function () {
+				$('.select-items').select2({
+					dropdownParent: $('#indentmodel')
+				});
+
+				$('.select-items').select2({ width: '100%' });
+			});
+
+		</script>
+		@*/* SCRIPT FOR DROPDOWNLIST - ENDS */*@
+
+
+
+
+
+
+		<script type="text/javascript">
+			$(document).ready(function () {
+				$('.group-header').click(function () {
+					$(this).next('.content').slideToggle(); // Toggle content visibility
+					$(this).find('.expand-collapse-icon').text(function (_, text) {
+						return text === '▼' ? '▲' : '▼'; // Toggle expand/collapse icon
+					});
+				});
+			});
+		</script>
+
+
+
+
+		<script>
+			document.getElementById("invoiceForm").addEventListener("keypress", function (event) {
+				var focusedElement = document.activeElement;
+
+				// Check if Enter key is pressed (key code 13) and the focused element is not one of the excluded textboxes
+				if (event.keyCode === 13 && focusedElement.id !== "name" && focusedElement.id !== "email") {
+					event.preventDefault(); // Prevent default form submission
+					//submitForm(); // Call your custom form submission function
+				}
+			});
+		</script>
+
+
+
+		<script>
+			async function insCustomerinfo() {
+				//console.log("createCustomer function called");
+				try {
+					// Get values from input fields
+					var mobileNumber = $("#lstCustomerMobile").val();
+					var firstName = $("#lstCustomerFName").val();
+					var lastName = $("#lstCustomerLName").val();
+					var address = $("#lstCustomerAddress").val();
+					var mailAddress = $("#lstCustomerMail").val();
+					var antiForgeryToken = $('input[name="__RequestVerificationToken"]').val();
+
+					// Data object to be sent
+					var data = {
+						__RequestVerificationToken: antiForgeryToken,
+						mobileNumber: mobileNumber,
+						firstName: firstName,
+						lastName: lastName,
+						address: address,
+						mailAddress: mailAddress
+					};
+
+					// Make a POST request to the controller action
+					const response = await $.post('@Url.Action("Insertcustomerinformation", "POSSales")', data);
+
+					if (response.success) {
+						// Success handler
+						$("#lstCustomerFName, #lstCustomerLName, #lstCustomerAddress, #lstCustomerMail").prop('disabled', true);
+						$("#createCust").css("display", "none");
+
+						// Display success message in modal
+						$("#messageText").text("Customer information added successfully.");
+						$("#notFoundModal").modal("show");
+
+						// Optionally, remove any invalid class if it was set
+						$("#lstCustomerMobile").removeClass("is-invalid").addClass("is-valid");
+						$(".invalid-feedback").text("");
+					} else {
+						// Handle server response indicating mobile number is invalid
+						$("#lstCustomerMobile").addClass("is-invalid");
+						$(".invalid-feedback").text("No customer details found for the provided phone number.");
+					}
+
+				} catch (error) {
+					// Error handler
+					//console.log("An error occurred while processing the request: " + error);
+
+					var errorMessage = "An error occurred while processing the request.";
+					if (error.responseJSON && error.responseJSON.errors) {
+						errorMessage = error.responseJSON.errors.join(", ");
+					} else if (error.responseJSON && error.responseJSON.message) {
+						errorMessage = error.responseJSON.message;
+					} else if (error.status && error.statusText) {
+						// HTTP error (e.g., 404, 500)
+						errorMessage = `Error ${error.status}: ${error.statusText}`;
+					} else if (error.message) {
+						// Network or other client-side error
+						errorMessage = error.message;
+					}
+
+					// Display error message in modal
+					$("#messageText").text(errorMessage);
+					$("#notFoundModal").modal('show');
+				}
+			}
+
+
+			async function GetCustomerDetails() {
+				try {
+					var mobilenumber = $("#lstCustomerMobile").val(); // Get the value of the input field
+					//console.log(mobilenumber);
+
+					const customerinfo = await $.getJSON("/POSSales/GetCustomerInformation", { mobileNumber: mobilenumber });
+
+					if (customerinfo != null && !jQuery.isEmptyObject(customerinfo)) {
+						// Assuming only one customer is returned, as per your sample data
+						var customerData = customerinfo[0];
+
+						// Populate the input fields with the retrieved customer data
+						$("#lstCustomerFName").val(customerData.firstName);
+						$("#lstCustomerLName").val(customerData.lastName);
+						$("#lstCustomerAddress").val(customerData.address);
+						$("#lstCustomerMail").val(customerData.email);
+
+						$("#lstCustomerFName").prop('disabled', true);
+						$("#lstCustomerLName").prop('disabled', true);
+						$("#lstCustomerAddress").prop('disabled', true);
+						$("#lstCustomerMail").prop('disabled', true);
+
+						$("#createCust").css("display", "none");
+						$("#createCust").css("visibility", "hidden");
+
+
+
+
+						// Optionally remove the 'is-invalid' class if previously added
+						$("#lstCustomerMobile").removeClass("is-invalid");
+
+					} else {
+						$("#lstCustomerFName").prop('disabled', false);
+						$("#lstCustomerLName").prop('disabled', false);
+						$("#lstCustomerAddress").prop('disabled', false);
+						$("#lstCustomerMail").prop('disabled', false);
+
+						$("#lstCustomerFName").val('');
+						$("#lstCustomerLName").val('');
+						$("#lstCustomerAddress").val('');
+						$("#lstCustomerMail").val('');
+
+						$("#createCust").css("display", "block");
+						$("#createCust").css("visibility", "visible");
+
+						// Show the modal
+						// Display message in modal
+						$("#messageText").text("No customer details found for the provided phone number.");
+						$('#notFoundModal').modal('show');
+
+						// Add a model error
+						$("#lstCustomerMobile").addClass("is-invalid"); // Optionally mark the input field as invalid
+						$(".invalid-feedback").text("No customer details found for the provided phone number."); // Display error message
+
+					}
+				} catch (error) {
+					console.log("An error occurred while fetching customer information:" + error);
+				}
+
+				//Calling Partial View - Incase If Their Is Any Item Is Scanned
+				refreshPartialView(mobilenumber);
+
+
+
+
+				// Function to refresh the partial view
+				function refreshPartialView(mobileNumber) {
+					$.ajax({
+						url: '/POSSales/GetSalesScannedDetails?mobileNumber=' + mobileNumber,
+						type: 'GET',
+						success: function (partialViewHtml) {
+							$('#partialViewContainer').html(partialViewHtml); // Replace 'partialViewContainer' with the ID of the HTML element where you want to display the partial view
+						},
+						error: function () {
+							console.log('Error refreshing partial view');
+						}
+					});
+				}
+
+			}
+
+
+
+
+
+
+			document.addEventListener("DOMContentLoaded", function () {
+				//const resultDiv = document.getElementById('result');
+				let scannedData = '';
+
+				// Listen for keyboard events
+				document.addEventListener('keydown', function (event) {
+					// Append key to scanned data
+					const key = event.key;
+					if (key && key.length === 1) { // Ignore special keys
+						scannedData += key;
+					} else if (key === 'Enter') {
+						// Handle QR code scan
+						if (isValidQR(scannedData)) {
+
+							//resultDiv.innerText = "QR Code Scanned: " + scannedData;
+							//alert(scannedData);
+							// Here you can process the scanned QR code data, for example, send it to your POS system.
+
+							insSalesScannedinfo(scannedData); // Call getScannedData function with scannedData as parameter
+
+						} else {
+							//resultDiv.innerText = "Invalid QR Code: " + scannedData;
+						}
+						// Reset scannedData
+						scannedData = '';
+
+						//retrieveStoredData();
+					}
+				});
+
+				function isValidQR(data) {
+					// Here you can implement your own validation logic for QR codes
+					// For simplicity, we assume any non-empty data is a valid QR code
+					return data.trim().length > 0;
+				}
+
+				// // Function to handle scanned data retrieval
+				// function getScannedData(data) {
+				// 	// Check if local storage is supported
+				// 	if (typeof (Storage) !== "undefined") {
+				// 		// Store the scanned data in the local storage
+				// 		localStorage.setItem("scannedData", data);
+				// 		console.log("Scanned data stored in local storage: " + data);
+				// 	} else {
+				// 		console.log("Sorry, your browser does not support local storage.");
+				// 	}
+				// }
+
+
+				// // JavaScript code to retrieve stored data
+				// function retrieveStoredData() {
+				// 	var storedData = localStorage.getItem("scannedData");
+				// 	if (storedData) {
+				// 		// Use the stored data as needed
+				// 		console.log("Stored Data: " + storedData);
+				// 	} else {
+				// 		console.log("No data found in local storage.");
+				// 	}
+				// }
+
+
+
+
+
+				async function insSalesScannedinfo(salesscannedData) {
+					//console.log("createCustomer function called");
+					try {
+						// Get values from input fields
+						var mobileNumber = $("#lstCustomerMobile").val();
+						var antiForgeryToken = $('input[name="__RequestVerificationToken"]').val();
+
+						// Data object to be sent
+						var data = {
+							__RequestVerificationToken: antiForgeryToken,
+							mobileNumber: mobileNumber,
+							data: salesscannedData
+						};
+
+						// Make a POST request to the controller action
+						const response = await $.post('@Url.Action("POSSalesScanSP", "POSSales")', data);
+
+						if (response.success) {
+							// Success handler
+							refreshPartialView(mobileNumber);
+
+						} else {
+							// Handle server response indicating mobile number is invalid
+							$("#lstCustomerMobile").addClass("is-invalid");
+							$(".invalid-feedback").text("Error Scanning Data.");
+						}
+						refreshPartialView(mobileNumber);
+
+
+					} catch (error) {
+						// Error handler
+						//console.log("An error occurred while processing the request: " + error);
+
+						var errorMessage = "An error occurred while processing the request.";
+						if (error.responseJSON && error.responseJSON.errors) {
+							errorMessage = error.responseJSON.errors.join(", ");
+						} else if (error.responseJSON && error.responseJSON.message) {
+							errorMessage = error.responseJSON.message;
+						} else if (error.status && error.statusText) {
+							// HTTP error (e.g., 404, 500)
+							errorMessage = `Error ${error.status}: ${error.statusText}`;
+						} else if (error.message) {
+							// Network or other client-side error
+							errorMessage = error.message;
+						}
+
+						// Display error message in modal
+						$("#messageText").text(errorMessage);
+						$("#notFoundModal").modal('show');
+					}
+				}
+
+
+
+
+				// Function to refresh the partial view
+				function refreshPartialView(mobileNumber) {
+					$.ajax({
+						url: '/POSSales/GetSalesScannedDetails?mobileNumber=' + mobileNumber,
+						type: 'GET',
+						success: function (partialViewHtml) {
+							$('#partialViewContainer').html(partialViewHtml); // Replace 'partialViewContainer' with the ID of the HTML element where you want to display the partial view
+						},
+						error: function () {
+							console.log('Error refreshing partial view');
+						}
+					});
+				}
+
+				// Call this function after each scanning is done
+				var mobileNumber = $("#lstCustomerMobile").val();
+				refreshPartialView(mobileNumber);
+
+			});
+
+
+
+			async function createSalesInvoice() {
+				//console.log("createCustomer function called");
+				try {
+					// Get values from input fields
+					var mobileNumber = $("#lstCustomerMobile").val();
+					var paymentType = $("#lstPaymentType").val();
+					var discountPercentage = $("#lstDiscountPercentage").val();
+					var taxPercentage = $("#lstTaxPercentage").val();
+
+					var antiForgeryToken = $('input[name="__RequestVerificationToken"]').val();
+
+					// Data object to be sent
+					var data = {
+						__RequestVerificationToken: antiForgeryToken,
+						mobileNumber: mobileNumber,
+						paymentType: paymentType,
+						discountPercentage: discountPercentage,
+						taxPercentage: taxPercentage
+					};
+
+					// Make a POST request to the controller action
+					const response = await $.post('@Url.Action("GenerateInvoice", "POSSales")', data);
+
+					if (response.success) {
+						// Success handler
+						// Redirect to the index page on success
+						window.location.href = '@Url.Action("Index", "POSSales")';
+
+					} else {
+						// Display error message in modal
+						$("#messageText").text(response.message);
+						$("#notFoundModal").modal('show');
+					}
+
+				} catch (error) {
+					// Error handler
+					//console.log("An error occurred while processing the request: " + error);
+
+					var errorMessage = "An error occurred while processing the request.";
+					if (error.responseJSON && error.responseJSON.errors) {
+						errorMessage = error.responseJSON.errors.join(", ");
+					} else if (error.responseJSON && error.responseJSON.message) {
+						errorMessage = error.responseJSON.message;
+					} else if (error.status && error.statusText) {
+						// HTTP error (e.g., 404, 500)
+						errorMessage = `Error ${error.status}: ${error.statusText}`;
+					} else if (error.message) {
+						// Network or other client-side error
+						errorMessage = error.message;
+					}
+
+					// Display error message in modal
+					$("#messageText").text(errorMessage);
+					$("#notFoundModal").modal('show');
+				}
+			}
+
+
+
+
+			$(document).ready(function () {
+				// Delete button click event handler using event delegation
+				$(document).on('click', '.deleteBtn', function () {
+
+					// Call this function after each scanning is done
+					var mobileNumber = $("#lstCustomerMobile").val();
+					var id = $(this).data('id');
+					var antiForgeryToken = $('input[name="__RequestVerificationToken"]').val();
+
+					// Data object to be sent
+					var data = {
+						__RequestVerificationToken: antiForgeryToken,
+						id: id
+					};
+
+					if (confirm('Are you sure you want to delete this item? : ' + id)) {
+						// Make a POST request to the controller action
+						$.post('@Url.Action("DeleteSalesItem", "POSSales")', data)
+							.done(function () {
+								// Success handler
+								$.ajax({
+									url: '/POSSales/GetSalesScannedDetails?mobileNumber=' + mobileNumber,
+									type: 'GET',
+									success: function (partialViewHtml) {
+										$('#partialViewContainer').html(partialViewHtml); // Replace 'partialViewContainer' with the ID of the HTML element where you want to display the partial view
+									},
+									error: function () {
+										console.log('Error refreshing partial view');
+									}
+								});
+							})
+							.fail(function (error) {
+								// Error handler
+								var errorMessage = "An error occurred while processing the request.";
+								if (error.responseJSON && error.responseJSON.errors) {
+									errorMessage = error.responseJSON.errors.join(", ");
+								} else if (error.responseJSON && error.responseJSON.message) {
+									errorMessage = error.responseJSON.message;
+								} else if (error.status && error.statusText) {
+									// HTTP error (e.g., 404, 500)
+									errorMessage = `Error ${error.status}: ${error.statusText}`;
+								} else if (error.message) {
+									// Network or other client-side error
+									errorMessage = error.message;
+								}
+
+								// Display error message in modal
+								$("#messageText").text(errorMessage);
+								$("#notFoundModal").modal('show');
+							});
+					}
+				});
+			});
+
+
+
+
+			function calculateTotalAutomatically() {
+				// Get all the rows of the table except the header row
+				var tableRows = document.querySelectorAll(".table tbody tr");
+
+				if (tableRows.length > 0) {
+
+					// Initialize total variable
+					var subtotal = 0;
+					var discountpercentage = 0;
+					var taxvalue = 0;
+
+
+
+					// Loop through each row
+					tableRows.forEach(function (row) {
+						// Get the total value from the current row
+						var rowTotal = parseFloat(row.cells[7].textContent); // Assuming total is in the 8th column (index 7)
+						var taxTotal = parseFloat(row.cells[8].textContent); // Assuming total is in the 8th column (index 7)
+
+						if (!isNaN(rowTotal)) {
+							// Add the row total to the overall total if it's a valid number
+							subtotal += rowTotal;
+							taxvalue += taxTotal;
+						}
+
+					});
+
+					// Set the total value to the input field if the table has at least one row
+					if (tableRows.length > 0) {
+						document.getElementById("lstSubTotal").value = subtotal.toFixed(2); // toFixed(2) ensures two decimal places
+						discountpercentage = document.getElementById("lstDiscountPercentage").value;
+						//taxpercentage = document.getElementById("lstTaxPercentage").value;
+
+						var temp_discountvalue = 0;
+						var temp_taxvalue = 0;
+
+						temp_discountvalue = (subtotal / 100) * discountpercentage;
+						document.getElementById("lstDiscountPercentageValue").value = temp_discountvalue.toFixed(2);
+
+						//temp_taxvalue = ((subtotal - temp_discountvalue) / 100) * taxpercentage;
+
+						if (discountpercentage == 0) {
+							temp_taxvalue = taxvalue.toFixed(2);
+						}
+						else {
+							var tempPercentage = (taxvalue / subtotal);
+							temp_taxvalue = Math.round(((subtotal - temp_discountvalue)) * tempPercentage);
+						}
+
+						document.getElementById("lstTaxPercentageValue").value = parseFloat(temp_taxvalue);
+
+						//document.getElementById("lstNetTotal").value = Math.round(parseFloat((subtotal - temp_discountvalue)) + parseFloat(temp_taxvalue));
+
+						document.getElementById("lstNetTotal").value = Math.round(subtotal - temp_discountvalue);
+
+
+					} else {
+						document.getElementById("lstDiscountPercentage").value = 0.0;
+						document.getElementById("lstDiscountPercentageValue").value = 0.0;
+						document.getElementById("lstTaxPercentageValue").value = 0.0;
+						document.getElementById("lstNetTotal").value = 0.0;
+						//console.log("Table is empty.");
+					}
+				}
+
+			}
+
+			// Calculate the total automatically every 5 seconds (adjust the interval as needed)
+			setInterval(calculateTotalAutomatically, 500);
+
+
+
+
+		</script>
+
+
+	}
+}

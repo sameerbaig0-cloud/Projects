@@ -1,0 +1,41 @@
+﻿@model IEnumerable<ServicePlatform.Models.UserPageAuthorization>
+
+@{
+    ViewData["Title"] = "Details";
+    //Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Details</h1>
+
+@foreach (var userPageAuthorization in Model)
+{
+    <div>
+        <h4>User Page Authorization</h4>
+        <hr />
+        <dl class="row">
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => userPageAuthorization.IsAuthorized)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => userPageAuthorization.IsAuthorized)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => userPageAuthorization.ApplicationUser.UserName)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => userPageAuthorization.ApplicationUser.Email)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => userPageAuthorization.MenuItem)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => userPageAuthorization.MenuItem.Title)
+            </dd>
+        </dl>
+    </div>
+}
+
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.FirstOrDefault()?.ID">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

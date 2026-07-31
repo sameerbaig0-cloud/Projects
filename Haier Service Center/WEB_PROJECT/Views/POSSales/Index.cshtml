@@ -1,0 +1,153 @@
+﻿@model PaginatedList<ServicePlatform.Models.POS_Invoice>
+
+@{
+	ViewData["Title"] = "POS - Index";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h3>Point Of Sale - Index</h3>
+
+<p>
+	<a asp-action="Create" class="btn btn-primary btn-sm">Create New Invoice</a>
+</p>
+
+@using (Html.BeginForm("Index", "POSSales", FormMethod.Get))
+{
+	<div class="row">
+		<div class="col-md-3">
+			<div class="form-group">
+				<label for="dateTime">Date:</label>
+				<input type="date" id="dateTime" name="dateTime" class="form-control" placeholder="Search by Date" />
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="form-group">
+				<label for="CurrentFilter">Search:</label>
+				<input type="text" name="CurrentFilter" class="form-control" value="@ViewBag.CurrentFilter" />
+			</div>
+		</div>
+		<div class="col-md-2">
+			<div class="form-group">
+				<label for="PageSize">Page Size:</label>
+				<input type="number" name="PageSize" class="form-control" value="@ViewBag.PageSize" />
+			</div>
+		</div>
+		<div class="col-md-3 d-flex align-items-end">
+			<button type="submit" class="btn btn-primary">Search</button>
+			<p class="m-1"> | </p>
+			<a asp-action="Index" class="m-1">Back to Full List</a>
+		</div>
+	</div>
+}
+
+<link href="~/css/inputrange.css" rel="stylesheet" />
+
+
+<table class="table">
+	<thead>
+		<tr>
+			<th>
+				@Html.DisplayNameFor(model => model.First().InvoiceID)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.First().InvoiceDate)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.First().TotalAmount)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.First().POS_Customer.FirstName)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.First().POS_Customer.Phone)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.First().POS_PaymentType.Name)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.First().CreatedTime)
+			</th>
+			<th></th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var item in Model)
+		{
+			<tr>
+				<td>
+					@Html.DisplayFor(modelItem => item.InvoiceID)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.InvoiceDate)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.TotalAmount)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.POS_Customer.FirstName)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.POS_Customer.Phone)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.POS_PaymentType.Name)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.CreatedTime)
+				</td>
+				<td>
+					<a asp-action="PrintInvoice" asp-route-id="@item.InvoiceID" class="btn btn-secondary btn-sm" target="_blank">  <i class="bi bi-printer"></i>  </a>
+					@* 					<a asp-action="Edit" asp-route-id="@item.InvoiceID">Edit</a> |
+				<a asp-action="Details" asp-route-id="@item.InvoiceID">Details</a> |
+				<a asp-action="Delete" asp-route-id="@item.InvoiceID">Delete</a> *@
+				</td>
+			</tr>
+		}
+	</tbody>
+</table>
+
+
+
+@{
+	var prevDisabled = !Model.HasPreviousPage ? "disabled" : "";
+	var nextDisabled = !Model.HasNextPage ? "disabled" : "";
+}
+
+<a asp-action="Index"
+   asp-route-dateTime="@ViewData["DateTime"]"
+   asp-route-sortOrder="@ViewData["CurrentSort"]"
+   asp-route-pageNumber="@(Model.PageIndex - 1)"
+   asp-route-currentFilter="@ViewData["CurrentFilter"]"
+   asp-route-pageSize="@ViewData["PageSize"]"
+   class="btn btn-secondary @prevDisabled">
+	Previous
+</a>
+
+<a asp-action="Index"
+   asp-route-dateTime="@ViewData["DateTime"]"
+   asp-route-sortOrder="@ViewData["CurrentSort"]"
+   asp-route-pageNumber="@(Model.PageIndex + 1)"
+   asp-route-currentFilter="@ViewData["CurrentFilter"]"
+   asp-route-pageSize="@ViewData["PageSize"]"
+   class="btn btn-secondary @nextDisabled">
+	Next
+</a>
+
+@section Scripts {
+
+	<script>
+		$(document).ready(function () {
+			$("#pageSize").change(function () {
+				$("form").submit(); // Submit the form after updating page size
+			});
+		});
+	</script>
+
+
+
+}
+
+
+<script src="~/js/inputrange.js"></script>
+
+

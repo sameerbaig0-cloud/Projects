@@ -1,0 +1,65 @@
+﻿@model IEnumerable<ServicePlatform.Models.MenuItem>
+
+
+<ul class="navbar-nav">
+    @foreach (var topLevelItem in Model.Where(item => item.ParentId == null))
+    {
+        <li class="nav-item dropdown">
+            @if (topLevelItem.Submenu == null || !topLevelItem.Submenu.Any())
+            {
+                <a class="nav-link" href="@topLevelItem.Url">@topLevelItem.Title</a>
+            }
+            else
+            {
+                <a class="nav-link dropdown-toggle" href="#" id="topLevelDropdown-@topLevelItem.Id" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    @topLevelItem.Title
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="topLevelDropdown-@topLevelItem.Id">
+                    @{
+                        RenderSubMenu(Model.ToList(), topLevelItem, 1);
+                    }
+                </ul>
+            }
+        </li>
+    }
+</ul>
+
+@functions {
+    void RenderSubMenu(List<MenuItem> menuItems, MenuItem parentItem, int level)
+    {
+        var childItems = menuItems.Where(item => item.ParentId == parentItem.Id).ToList();
+
+        if (childItems.Any() && level <= 5)
+        {
+            //<ul class="dropdown-menu">
+            @foreach (var childItem in childItems)
+            {
+
+                @if (childItem.Submenu == null || !childItem.Submenu.Any())
+                {
+                    <li>
+                        <a class="dropdown-item" href="@childItem.Url">@childItem.Title</a>
+                    </li>
+                }
+                else
+                {
+                    <li class="nav-item dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#" id="submenu-@childItem.Id" role="button">
+                            @childItem.Title
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="submenu-@childItem.Id">
+                            @{
+                                RenderSubMenu(menuItems, childItem, level + 1);
+                            }
+                        </ul>
+                    </li>
+                }
+            }
+            //</ul>
+        }
+
+    }
+}
+
+
+
