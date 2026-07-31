@@ -1,0 +1,46 @@
+﻿@model ContactViewModel
+@{
+    ViewData["Title"] = "Contact Us";
+}
+
+<div class="container">
+    <h1>Contact Us</h1>
+    <p>If you have any questions or need assistance, please feel free to get in touch with us. We're here to help!</p>
+
+    <div class="row">
+        <div class="col-md-6">
+            <h2>Contact Information</h2>
+            <address>
+                <strong class="card-subtitle">Haier Service Center India Private Limited</strong><br>
+                <strong class="card-subtitle mb-2 text-muted">Manufacturers & Exporters of Leather Shoes & Uppers </strong><br>
+                S.F. No: 90-93, Somalapuram Village Road, Somalapuram Village Road<br>
+                Somalapuram Village Road, Ambur - 635802<br>
+                Thirupattur District, Tamil Nadu, INDIA<br>
+                Email: <a href="mailto:system.administrator@baerindia.com">system.administrator@baerindia.com</a><br>
+                Phone: (+91) 99524 20498 
+            </address>
+        </div>
+        <div class="col-md-6">
+            <h2>Location</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11004.043943443035!2d78.73250952495857!3d12.809830100128003!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bad0939dcf31fe3%3A0xe563dd593680f055!2sBaer%20Shoes%20(India)%20Pvt%20Ltd!5e0!3m2!1sen!2sin!4v1695617693809!5m2!1sen!2sin" width="450" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
+    <h2>Contact Form</h2>
+    <p>If you prefer, you can also reach out to us using the contact form below:</p>
+    <form asp-action="SendEmail" method="post">
+        <div class="form-group">
+            <label for="Name">Your Name</label>
+            <input type="text" class="form-control" id="Name" name="Name" placeholder="Enter your name" required>
+        </div>
+        <div class="form-group">
+            <label for="Email">Email Address</label>
+            <input type="email" class="form-control" id="Email" name="Email" placeholder="Enter your email" required>
+        </div>
+        <div class="form-group">
+            <label for="Message">Message</label>
+            <textarea class="form-control" id="Message" name="Message" rows="5" placeholder="Your message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>

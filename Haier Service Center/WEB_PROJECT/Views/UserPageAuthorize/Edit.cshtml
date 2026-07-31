@@ -1,0 +1,76 @@
+﻿@model ServicePlatform.Models.UserPageAuthorization
+
+@{
+    ViewData["Title"] = "Edit";
+//    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+@*Load CSS for Editable Select - BEGIN *@
+<link href="~/lib/jquery-select/css/select2.min.css" rel="stylesheet" />
+@*Load CSS for Editable Select - END *@
+
+
+<h1>Edit</h1>
+
+<h4>User Page Authorization</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4" id="userPageAuthorizationmodel">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="ID" />
+            <div class="form-group">
+                <label asp-for="UserID" class="control-label"></label>
+                <select asp-for="UserID" class="select-items" class="form-control" asp-items="ViewBag.UserID"></select>
+                <span asp-validation-for="UserID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MenuItemsID" class="control-label"></label>
+                <select asp-for="MenuItemsID" class="select-items" class="form-control" asp-items="ViewBag.MenuItemsID"></select>
+                <span asp-validation-for="MenuItemsID" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="IsAuthorized" /> @Html.DisplayNameFor(model => model.IsAuthorized)
+                </label>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        //await Html.RenderPartialAsync("_ValidationScriptsPartial");
+
+
+        @*Load CSS for Editable Select - BEGIN *@
+        <script src="~/lib/jquery-select/js/select2.min.js"></script>
+        @*Load CSS for Editable Select - END *@
+
+        @*/* SCRIPT FOR DROPDOWNLIST - BEGINS */*@
+        <script>
+
+            //jQuery.noConflict(true);
+
+
+            $(function () {
+                $('.select-items').select2({
+                    dropdownParent: $('#userPageAuthorizationmodel')
+                });
+
+                $('.select-items').select2({ width: '100%' });
+            });
+
+        </script>
+        @*/* SCRIPT FOR DROPDOWNLIST - ENDS */*@
+
+    }
+}

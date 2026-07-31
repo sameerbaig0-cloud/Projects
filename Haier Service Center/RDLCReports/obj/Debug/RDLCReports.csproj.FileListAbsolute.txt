@@ -1,0 +1,432 @@
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\obj\Debug\RDLCReports.csproj.AssemblyReference.cache
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\obj\Debug\RDLCReports.Properties.Resources.resources
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\obj\Debug\RDLCReports.csproj.GenerateResource.cache
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\obj\Debug\RDLCReports.csproj.CoreCompileInputs.cache
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\obj\Debug\RDLCReports.csproj.SuggestedBindingRedirects.cache
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\obj\Debug\RDLCReports.exe.config
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\Form1.cs
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\Form1.Designer.cs
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\RDLCReports.exe.config
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\RDLCReports.exe
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\RDLCReports.pdb
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Security.Cryptography.Algorithms.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.ValueTuple.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\Microsoft.Win32.Primitives.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\netstandard.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.AppContext.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Collections.Concurrent.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Collections.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Collections.NonGeneric.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Collections.Specialized.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.ComponentModel.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.ComponentModel.Primitives.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.ComponentModel.TypeConverter.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Console.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Data.Common.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Diagnostics.Contracts.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Diagnostics.Debug.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Diagnostics.Process.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Diagnostics.StackTrace.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Diagnostics.Tools.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Diagnostics.TraceSource.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Diagnostics.Tracing.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Drawing.Primitives.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Dynamic.Runtime.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Globalization.Calendars.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Globalization.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Globalization.Extensions.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.IO.Compression.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.IO.Compression.ZipFile.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.IO.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.IO.FileSystem.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.IO.FileSystem.Primitives.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.IO.FileSystem.Watcher.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.IO.IsolatedStorage.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.IO.MemoryMappedFiles.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.IO.Pipes.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Linq.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Linq.Expressions.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Linq.Parallel.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Linq.Queryable.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Net.Http.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Net.NameResolution.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Net.NetworkInformation.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Net.Ping.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Net.Primitives.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Net.Requests.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Net.Security.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Net.Sockets.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Net.WebHeaderCollection.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Net.WebSockets.Client.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Net.WebSockets.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.ObjectModel.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Reflection.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Reflection.Extensions.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Reflection.Primitives.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Resources.Reader.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Resources.ResourceManager.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Resources.Writer.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Runtime.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Runtime.Extensions.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Runtime.Handles.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Runtime.InteropServices.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Runtime.Numerics.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Runtime.Serialization.Formatters.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Runtime.Serialization.Json.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Runtime.Serialization.Primitives.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Runtime.Serialization.Xml.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Security.Claims.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Security.Cryptography.Csp.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Security.Cryptography.Encoding.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Security.Cryptography.Primitives.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Security.Principal.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Security.SecureString.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Text.Encoding.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Text.Encoding.Extensions.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Text.RegularExpressions.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Threading.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Threading.Overlapped.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Threading.Tasks.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Threading.Tasks.Parallel.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Threading.Thread.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Threading.ThreadPool.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Threading.Timer.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Xml.ReaderWriter.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Xml.XDocument.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Xml.XmlDocument.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Xml.XmlSerializer.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Xml.XPath.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Xml.XPath.XDocument.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\AspNetCore.Reporting.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\AspNetCore.ReportingServices.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\Newtonsoft.Json.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.CodeDom.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Data.SqlClient.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.ServiceModel.Http.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.ServiceModel.Primitives.dll
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\AspNetCore.Reporting.pdb
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\AspNetCore.Reporting.xml
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\AspNetCore.ReportingServices.pdb
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\Newtonsoft.Json.xml
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.CodeDom.xml
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\obj\Debug\RDLCRepo.17329BFA.Up2Date
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\obj\Debug\RDLCReports.exe
+D:\C data\Downloads\BAER_ERP_WEB_PROJECT\RDLCReports\obj\Debug\RDLCReports.pdb
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\Form1.cs
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\Form1.Designer.cs
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\RDLCReports.exe.config
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\RDLCReports.exe
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\RDLCReports.pdb
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Security.Cryptography.Algorithms.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.ValueTuple.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\Microsoft.Win32.Primitives.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\netstandard.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.AppContext.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Collections.Concurrent.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Collections.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Collections.NonGeneric.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Collections.Specialized.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.ComponentModel.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.ComponentModel.Primitives.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.ComponentModel.TypeConverter.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Console.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Data.Common.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Diagnostics.Contracts.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Diagnostics.Debug.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Diagnostics.Process.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Diagnostics.StackTrace.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Diagnostics.Tools.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Diagnostics.TraceSource.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Diagnostics.Tracing.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Drawing.Primitives.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Dynamic.Runtime.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Globalization.Calendars.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Globalization.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Globalization.Extensions.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.IO.Compression.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.IO.Compression.ZipFile.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.IO.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.IO.FileSystem.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.IO.FileSystem.Primitives.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.IO.FileSystem.Watcher.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.IO.IsolatedStorage.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.IO.MemoryMappedFiles.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.IO.Pipes.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Linq.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Linq.Expressions.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Linq.Parallel.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Linq.Queryable.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Net.Http.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Net.NameResolution.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Net.NetworkInformation.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Net.Ping.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Net.Primitives.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Net.Requests.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Net.Security.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Net.Sockets.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Net.WebHeaderCollection.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Net.WebSockets.Client.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Net.WebSockets.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.ObjectModel.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Reflection.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Reflection.Extensions.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Reflection.Primitives.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Resources.Reader.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Resources.ResourceManager.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Resources.Writer.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Runtime.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Runtime.Extensions.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Runtime.Handles.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Runtime.InteropServices.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Runtime.Numerics.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Runtime.Serialization.Formatters.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Runtime.Serialization.Json.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Runtime.Serialization.Primitives.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Runtime.Serialization.Xml.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Security.Claims.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Security.Cryptography.Csp.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Security.Cryptography.Encoding.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Security.Cryptography.Primitives.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Security.Principal.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Security.SecureString.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Text.Encoding.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Text.Encoding.Extensions.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Text.RegularExpressions.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Threading.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Threading.Overlapped.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Threading.Tasks.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Threading.Tasks.Parallel.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Threading.Thread.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Threading.ThreadPool.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Threading.Timer.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Xml.ReaderWriter.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Xml.XDocument.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Xml.XmlDocument.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Xml.XmlSerializer.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Xml.XPath.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Xml.XPath.XDocument.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\AspNetCore.Reporting.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\AspNetCore.ReportingServices.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\Microsoft.SqlServer.Types.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\Newtonsoft.Json.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.CodeDom.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Data.SqlClient.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.ServiceModel.Http.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.ServiceModel.Primitives.dll
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\AspNetCore.Reporting.pdb
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\AspNetCore.Reporting.xml
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\AspNetCore.ReportingServices.pdb
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\Newtonsoft.Json.xml
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.CodeDom.xml
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\obj\Debug\RDLCReports.csproj.AssemblyReference.cache
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\obj\Debug\RDLCReports.csproj.SuggestedBindingRedirects.cache
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\obj\Debug\RDLCReports.exe.config
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\obj\Debug\RDLCReports.Form1.resources
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\obj\Debug\RDLCReports.Properties.Resources.resources
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\obj\Debug\RDLCReports.csproj.GenerateResource.cache
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\obj\Debug\RDLCReports.csproj.CoreCompileInputs.cache
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\obj\Debug\RDLCRepo.17329BFA.Up2Date
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\obj\Debug\RDLCReports.exe
+E:\BAER_ERP_WEB_PROJECT\RDLCReports\obj\Debug\RDLCReports.pdb
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\Form1.cs
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\Form1.Designer.cs
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\RDLCReports.exe.config
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\RDLCReports.exe
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\RDLCReports.pdb
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Security.Cryptography.Algorithms.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.ValueTuple.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\Microsoft.Win32.Primitives.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\netstandard.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.AppContext.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Collections.Concurrent.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Collections.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Collections.NonGeneric.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Collections.Specialized.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.ComponentModel.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.ComponentModel.Primitives.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.ComponentModel.TypeConverter.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Console.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Data.Common.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Diagnostics.Contracts.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Diagnostics.Debug.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Diagnostics.Process.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Diagnostics.StackTrace.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Diagnostics.Tools.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Diagnostics.TraceSource.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Diagnostics.Tracing.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Drawing.Primitives.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Dynamic.Runtime.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Globalization.Calendars.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Globalization.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Globalization.Extensions.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.IO.Compression.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.IO.Compression.ZipFile.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.IO.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.IO.FileSystem.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.IO.FileSystem.Primitives.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.IO.FileSystem.Watcher.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.IO.IsolatedStorage.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.IO.MemoryMappedFiles.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.IO.Pipes.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Linq.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Linq.Expressions.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Linq.Parallel.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Linq.Queryable.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Net.Http.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Net.NameResolution.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Net.NetworkInformation.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Net.Ping.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Net.Primitives.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Net.Requests.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Net.Security.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Net.Sockets.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Net.WebHeaderCollection.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Net.WebSockets.Client.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Net.WebSockets.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.ObjectModel.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Reflection.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Reflection.Extensions.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Reflection.Primitives.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Resources.Reader.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Resources.ResourceManager.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Resources.Writer.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Runtime.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Runtime.Extensions.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Runtime.Handles.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Runtime.InteropServices.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Runtime.Numerics.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Runtime.Serialization.Formatters.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Runtime.Serialization.Json.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Runtime.Serialization.Primitives.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Runtime.Serialization.Xml.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Security.Claims.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Security.Cryptography.Csp.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Security.Cryptography.Encoding.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Security.Cryptography.Primitives.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Security.Principal.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Security.SecureString.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Text.Encoding.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Text.Encoding.Extensions.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Text.RegularExpressions.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Threading.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Threading.Overlapped.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Threading.Tasks.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Threading.Tasks.Parallel.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Threading.Thread.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Threading.ThreadPool.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Threading.Timer.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Xml.ReaderWriter.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Xml.XDocument.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Xml.XmlDocument.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Xml.XmlSerializer.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Xml.XPath.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Xml.XPath.XDocument.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\AspNetCore.Reporting.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\AspNetCore.ReportingServices.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\Microsoft.SqlServer.Types.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\Newtonsoft.Json.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.CodeDom.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Data.SqlClient.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.ServiceModel.Http.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.ServiceModel.Primitives.dll
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\AspNetCore.Reporting.pdb
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\AspNetCore.Reporting.xml
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\AspNetCore.ReportingServices.pdb
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\Newtonsoft.Json.xml
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.CodeDom.xml
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\obj\Debug\RDLCReports.csproj.AssemblyReference.cache
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\obj\Debug\RDLCReports.csproj.SuggestedBindingRedirects.cache
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\obj\Debug\RDLCReports.exe.config
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\obj\Debug\RDLCReports.Form1.resources
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\obj\Debug\RDLCReports.Properties.Resources.resources
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\obj\Debug\RDLCReports.csproj.GenerateResource.cache
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\obj\Debug\RDLCReports.csproj.CoreCompileInputs.cache
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\obj\Debug\RDLCRepo.17329BFA.Up2Date
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\obj\Debug\RDLCReports.exe
+E:\BAER_ERP_WEB_PROJECT\BAER_ERP_WEB_PROJECT\RDLCReports\obj\Debug\RDLCReports.pdb
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\Form1.cs
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\Form1.Designer.cs
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\RDLCReports.exe.config
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\RDLCReports.exe
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\RDLCReports.pdb
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\AspNetCore.Reporting.dll
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\AspNetCore.ReportingServices.dll
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\Microsoft.Data.SqlClient.dll
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\Microsoft.SqlServer.Types.dll
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\Newtonsoft.Json.dll
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.CodeDom.dll
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Data.SqlClient.dll
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Memory.dll
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.ServiceModel.Http.dll
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.ServiceModel.Primitives.dll
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\Microsoft.Identity.Client.dll
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\Azure.Identity.dll
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Threading.Tasks.Extensions.dll
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\Microsoft.IdentityModel.Protocols.dll
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.ValueTuple.dll
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\Microsoft.IdentityModel.Logging.dll
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Buffers.dll
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Numerics.Vectors.dll
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\Microsoft.IdentityModel.Abstractions.dll
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\Microsoft.Identity.Client.Extensions.Msal.dll
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.Security.Principal.Windows.dll
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\AspNetCore.Reporting.pdb
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\AspNetCore.Reporting.xml
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\AspNetCore.ReportingServices.pdb
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\Newtonsoft.Json.xml
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Debug\System.CodeDom.xml
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\obj\Debug\RDLCReports.csproj.AssemblyReference.cache
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\obj\Debug\RDLCReports.csproj.SuggestedBindingRedirects.cache
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\obj\Debug\RDLCReports.exe.config
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\obj\Debug\RDLCReports.csproj.ResolveComReference.cache
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\obj\Debug\RDLCReports.Form1.resources
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\obj\Debug\RDLCReports.Properties.Resources.resources
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\obj\Debug\RDLCReports.csproj.GenerateResource.cache
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\obj\Debug\RDLCReports.csproj.CoreCompileInputs.cache
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\obj\Debug\RDLCRepo.17329BFA.Up2Date
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\obj\Debug\RDLCReports.exe
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\obj\Debug\RDLCReports.pdb

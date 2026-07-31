@@ -1,0 +1,104 @@
+﻿
+
+/* Media queries for responsiveness */
+@media (max-width: 1200px) {
+    .custom-table {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 992px) {
+    .custom-table {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 768px) {
+    .custom-table {
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 576px) {
+    .custom-table {
+        font-size: 10px;
+    }
+}
+
+
+/* Media query for smaller screens */
+/*@media (max-width: 720px) {
+    .custom-table tbody tr {
+        display: block;
+        margin-bottom: 10px;
+        border: 1px solid #ddd;
+        padding: 10px;
+    }
+
+    .custom-table tbody td {
+        display: block;
+        font-size: 12px;*/ /* Adjust font size for smaller screens */
+/*}
+
+    .custom-table th, .custom-table td {
+        border: none;
+    }
+}*/
+
+
+
+@media (min-width: 220px) and (max-width: 720px) {
+
+    .custom-table table {
+        width: inherit;
+    }
+
+    .custom-table thead {
+        display: none;
+    }
+
+    .custom-table, .custom-table tbody, .custom-table tr, .custom-table td {
+        display: block;
+        width: 100%;
+    }
+
+        .custom-table tr {
+            margin-bottom: 15px;
+        }
+
+        .custom-table th {
+            position: relative;
+            text-align: right;
+            padding-left: 50%;
+        }
+
+        .custom-table tbody td {
+            text-align: left;
+            align-content: center;
+        }
+
+        .custom-table td {
+            background-color: #343a40; /* Background color for cells with data-label */
+            color: white;
+        }
+
+
+            .custom-table td::before {
+                content: attr(data-label);
+                position: relative;
+                /* left: 10px; 
+            width: 45%; */
+                width: 100px;
+                padding-left: 10px;
+                padding-right: 40%;
+                float: left;
+                white-space: nowrap;
+                text-align: right;
+                font-weight: bold;
+                color: #90c184; /* Background color for cells with data-label */
+                font-family: 'Arial Nova';
+            }
+
+
+}
+

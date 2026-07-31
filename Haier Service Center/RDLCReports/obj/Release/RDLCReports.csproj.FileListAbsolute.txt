@@ -1,0 +1,260 @@
+E:\Projects\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\SqlServerTypes\x64\msvcr120.dll
+E:\Projects\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\SqlServerTypes\x64\SqlServerSpatial140.dll
+E:\Projects\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\SqlServerTypes\x86\msvcr120.dll
+E:\Projects\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\SqlServerTypes\x86\SqlServerSpatial140.dll
+E:\Projects\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\Form1.cs
+E:\Projects\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\Form1.Designer.cs
+E:\Projects\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\RDLCReports.exe.config
+E:\Projects\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\RDLCReports.exe
+E:\Projects\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\RDLCReports.pdb
+E:\Projects\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\AspNetCore.Reporting.dll
+E:\Projects\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\AspNetCore.ReportingServices.dll
+E:\Projects\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\Microsoft.ReportViewer.WinForms.dll
+E:\Projects\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\Microsoft.SqlServer.Types.dll
+E:\Projects\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\Newtonsoft.Json.dll
+E:\Projects\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\System.CodeDom.dll
+E:\Projects\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\System.Data.SqlClient.dll
+E:\Projects\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\System.Memory.dll
+E:\Projects\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\System.ServiceModel.Http.dll
+E:\Projects\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\System.ServiceModel.Primitives.dll
+E:\Projects\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\System.Numerics.Vectors.dll
+E:\Projects\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\System.Buffers.dll
+E:\Projects\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\AspNetCore.Reporting.pdb
+E:\Projects\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\AspNetCore.Reporting.xml
+E:\Projects\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\AspNetCore.ReportingServices.pdb
+E:\Projects\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\Newtonsoft.Json.xml
+E:\Projects\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\System.CodeDom.xml
+E:\Projects\BAER_ERP_WEB_PROJECT\RDLCReports\obj\Release\RDLCReports.csproj.AssemblyReference.cache
+E:\Projects\BAER_ERP_WEB_PROJECT\RDLCReports\obj\Release\RDLCReports.csproj.ResolveComReference.cache
+E:\Projects\BAER_ERP_WEB_PROJECT\RDLCReports\obj\Release\RDLCReports.Form1.resources
+E:\Projects\BAER_ERP_WEB_PROJECT\RDLCReports\obj\Release\RDLCReports.Properties.Resources.resources
+E:\Projects\BAER_ERP_WEB_PROJECT\RDLCReports\obj\Release\RDLCReports.csproj.GenerateResource.cache
+E:\Projects\BAER_ERP_WEB_PROJECT\RDLCReports\obj\Release\RDLCReports.csproj.CoreCompileInputs.cache
+E:\Projects\BAER_ERP_WEB_PROJECT\RDLCReports\obj\Release\RDLCRepo.17329BFA.Up2Date
+E:\Projects\BAER_ERP_WEB_PROJECT\RDLCReports\obj\Release\RDLCReports.exe
+E:\Projects\BAER_ERP_WEB_PROJECT\RDLCReports\obj\Release\RDLCReports.pdb
+E:\Projects\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\QRCoder.dll
+E:\Projects\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Projects\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+E:\Projects\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\System.Text.Encodings.Web.dll
+E:\Projects\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\System.Text.Json.dll
+E:\Projects\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\System.Threading.Tasks.Extensions.dll
+E:\Projects\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\System.ValueTuple.dll
+E:\Projects\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\Microsoft.Bcl.AsyncInterfaces.xml
+E:\Projects\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\System.Buffers.xml
+E:\Projects\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\System.Memory.xml
+E:\Projects\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\System.Numerics.Vectors.xml
+E:\Projects\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
+E:\Projects\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\System.Text.Encodings.Web.xml
+E:\Projects\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\System.Text.Json.xml
+E:\Projects\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\System.Threading.Tasks.Extensions.xml
+E:\Projects\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\System.ValueTuple.xml
+E:\Projects\BAER_ERP_WEB_PROJECT\RDLCReports\obj\Release\RDLCReports.csproj.SuggestedBindingRedirects.cache
+E:\Projects\BAER_ERP_WEB_PROJECT\RDLCReports\obj\Release\RDLCReports.exe.config
+E:\Projects\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\SixLabors.ImageSharp.dll
+E:\Projects\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\System.Text.Encoding.CodePages.dll
+E:\Projects\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\SixLabors.ImageSharp.xml
+E:\Projects\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\System.Text.Encoding.CodePages.xml
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\SqlServerTypes\x64\msvcr120.dll
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\SqlServerTypes\x64\SqlServerSpatial140.dll
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\SqlServerTypes\x86\msvcr120.dll
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\SqlServerTypes\x86\SqlServerSpatial140.dll
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\Form1.cs
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\Form1.Designer.cs
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\RDLCReports.exe.config
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\RDLCReports.exe
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\RDLCReports.pdb
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\AspNetCore.Reporting.dll
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\AspNetCore.ReportingServices.dll
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\Microsoft.Bcl.AsyncInterfaces.dll
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\Microsoft.Data.SqlClient.dll
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\Microsoft.ReportViewer.WinForms.dll
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\Microsoft.SqlServer.Types.dll
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\Newtonsoft.Json.dll
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\QRCoder.dll
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\SixLabors.ImageSharp.dll
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\System.Buffers.dll
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\System.CodeDom.dll
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\System.Data.SqlClient.dll
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\System.Memory.dll
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\System.Numerics.Vectors.dll
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\System.ServiceModel.Http.dll
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\System.ServiceModel.Primitives.dll
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\System.Text.Encoding.CodePages.dll
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\System.Text.Encodings.Web.dll
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\System.Text.Json.dll
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\System.Threading.Tasks.Extensions.dll
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\System.ValueTuple.dll
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\Microsoft.Identity.Client.dll
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\Azure.Identity.dll
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\Microsoft.IdentityModel.Protocols.dll
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\Microsoft.IdentityModel.Tokens.dll
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\System.IdentityModel.Tokens.Jwt.dll
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\Microsoft.IdentityModel.JsonWebTokens.dll
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\Microsoft.IdentityModel.Logging.dll
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\Microsoft.IdentityModel.Abstractions.dll
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\Microsoft.Identity.Client.Extensions.Msal.dll
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\System.Security.Principal.Windows.dll
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\AspNetCore.Reporting.pdb
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\AspNetCore.Reporting.xml
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\AspNetCore.ReportingServices.pdb
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\Microsoft.Bcl.AsyncInterfaces.xml
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\Newtonsoft.Json.xml
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\SixLabors.ImageSharp.xml
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\System.Buffers.xml
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\System.CodeDom.xml
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\System.Memory.xml
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\System.Numerics.Vectors.xml
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\System.Text.Encoding.CodePages.xml
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\System.Text.Encodings.Web.xml
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\System.Text.Json.xml
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\System.Threading.Tasks.Extensions.xml
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\bin\Release\System.ValueTuple.xml
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\obj\Release\RDLCReports.csproj.AssemblyReference.cache
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\obj\Release\RDLCReports.csproj.SuggestedBindingRedirects.cache
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\obj\Release\RDLCReports.exe.config
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\obj\Release\RDLCReports.csproj.ResolveComReference.cache
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\obj\Release\RDLCReports.Form1.resources
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\obj\Release\RDLCReports.Properties.Resources.resources
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\obj\Release\RDLCReports.csproj.GenerateResource.cache
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\obj\Release\RDLCReports.csproj.CoreCompileInputs.cache
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\obj\Release\RDLCRepo.17329BFA.Up2Date
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\obj\Release\RDLCReports.exe
+G:\Developments\BAER_ERP_WEB_PROJECT\RDLCReports\obj\Release\RDLCReports.pdb
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\x86\SqlServerSpatial170.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\x64\SqlServerSpatial170.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\arm64\SqlServerSpatial170.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\Form1.cs
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\Form1.Designer.cs
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\RDLCReports.exe.config
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\RDLCReports.exe
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\RDLCReports.pdb
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\AspNetCore.Reporting.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\AspNetCore.ReportingServices.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\Microsoft.Data.SqlClient.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\Microsoft.ReportViewer.Common.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\Microsoft.ReportViewer.DataVisualization.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\Microsoft.ReportViewer.Design.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\Microsoft.ReportViewer.WinForms.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\Microsoft.SqlServer.Server.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\Microsoft.SqlServer.Types.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\Newtonsoft.Json.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\QRCoder.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\System.Buffers.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\System.CodeDom.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\System.Data.SqlClient.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\System.IO.Pipelines.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\System.Memory.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\System.Numerics.Vectors.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\System.ServiceModel.Duplex.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\System.ServiceModel.Http.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\System.ServiceModel.Primitives.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\System.ServiceModel.Security.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\System.Text.Encoding.CodePages.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\System.Text.Encodings.Web.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\System.Text.Json.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\System.Threading.Tasks.Extensions.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\Microsoft.Identity.Client.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\Azure.Identity.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\Microsoft.IdentityModel.Protocols.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\Microsoft.IdentityModel.Tokens.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\System.IdentityModel.Tokens.Jwt.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\Microsoft.IdentityModel.Logging.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\EnvDTE.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\Microsoft.IdentityModel.Abstractions.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\System.Diagnostics.DiagnosticSource.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\stdole.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\System.Security.Principal.Windows.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\AspNetCore.Reporting.pdb
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\AspNetCore.Reporting.xml
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\AspNetCore.ReportingServices.pdb
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\Microsoft.SqlServer.Server.pdb
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\Microsoft.SqlServer.Server.xml
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\Newtonsoft.Json.xml
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\QRCoder.xml
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\System.Buffers.xml
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\System.CodeDom.xml
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\System.Data.SqlClient.xml
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\System.IO.Pipelines.xml
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\System.Memory.xml
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\System.Numerics.Vectors.xml
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\System.ServiceModel.Duplex.pdb
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\System.ServiceModel.Http.pdb
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\System.ServiceModel.Primitives.pdb
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\System.ServiceModel.Security.pdb
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\System.Text.Encoding.CodePages.xml
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\System.Text.Encodings.Web.xml
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\System.Text.Json.xml
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\System.Threading.Tasks.Extensions.xml
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\de\Microsoft.ReportViewer.Common.resources.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\es\Microsoft.ReportViewer.Common.resources.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\it\Microsoft.ReportViewer.Common.resources.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\de\Microsoft.ReportViewer.Design.resources.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\es\Microsoft.ReportViewer.Design.resources.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\it\Microsoft.ReportViewer.Design.resources.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\de\Microsoft.SqlServer.Types.resources.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\es\Microsoft.SqlServer.Types.resources.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\fr\Microsoft.SqlServer.Types.resources.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\it\Microsoft.SqlServer.Types.resources.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\ja\Microsoft.SqlServer.Types.resources.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\ko\Microsoft.SqlServer.Types.resources.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\pt\Microsoft.SqlServer.Types.resources.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\ru\Microsoft.SqlServer.Types.resources.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+D:\Projects\Haier Service Center\RDLCReports\bin\Release\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+D:\Projects\Haier Service Center\RDLCReports\obj\Release\RDLCReports.csproj.AssemblyReference.cache
+D:\Projects\Haier Service Center\RDLCReports\obj\Release\RDLCReports.csproj.SuggestedBindingRedirects.cache
+D:\Projects\Haier Service Center\RDLCReports\obj\Release\RDLCReports.exe.config
+D:\Projects\Haier Service Center\RDLCReports\obj\Release\RDLCReports.csproj.ResolveComReference.cache
+D:\Projects\Haier Service Center\RDLCReports\obj\Release\RDLCReports.Form1.resources
+D:\Projects\Haier Service Center\RDLCReports\obj\Release\RDLCReports.Properties.Resources.resources
+D:\Projects\Haier Service Center\RDLCReports\obj\Release\RDLCReports.csproj.GenerateResource.cache
+D:\Projects\Haier Service Center\RDLCReports\obj\Release\RDLCReports.csproj.CoreCompileInputs.cache
+D:\Projects\Haier Service Center\RDLCReports\obj\Release\RDLCRepo.17329BFA.Up2Date
+D:\Projects\Haier Service Center\RDLCReports\obj\Release\RDLCReports.exe
+D:\Projects\Haier Service Center\RDLCReports\obj\Release\RDLCReports.pdb

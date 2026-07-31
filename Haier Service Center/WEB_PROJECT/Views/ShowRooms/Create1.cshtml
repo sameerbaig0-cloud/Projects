@@ -1,0 +1,157 @@
+﻿@model ShowRoom
+
+@{
+    ViewData["Title"] = "Create Show Room";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h3>Create Show Room</h3>
+
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+
+<form asp-action="Create">
+
+    <fieldset class="border rounded p-3">
+
+        <legend class="float-none w-auto px-2">
+            Show Room Details
+        </legend>
+
+        <div asp-validation-summary="ModelOnly"
+             class="text-danger">
+        </div>
+
+        <input asp-for="Name"
+               class="form-control mb-2"
+               placeholder="Name" />
+
+        <input asp-for="City"
+               class="form-control mb-2"
+               placeholder="City" />
+
+        <input asp-for="Phone"
+               class="form-control mb-2"
+               placeholder="Phone" />
+
+        <input asp-for="Email"
+               class="form-control mb-2"
+               placeholder="Email" />
+
+        <input asp-for="GSTNumber"
+               class="form-control mb-2"
+               placeholder="GST Number" />
+
+    </fieldset>
+
+    <br />
+
+    <fieldset class="border rounded p-3">
+
+        <legend class="float-none w-auto px-2">
+            Location
+        </legend>
+
+        <label>Select Location</label>
+
+        <div id="map" style="height:400px;"></div>
+
+        <input asp-for="Latitude"
+               id="Latitude"
+               type="hidden" />
+
+        <input asp-for="Longitude"
+               id="Longitude"
+               type="hidden" />
+
+        <p class="mt-2">
+            Lat: <span id="latText"></span> |
+            Lng: <span id="lngText"></span>
+        </p>
+
+    </fieldset>
+
+    <button type="submit"
+            class="btn btn-success mt-2">
+        Save
+    </button>
+
+</form>
+
+
+
+
+<script>
+
+    window.onload = function () {
+
+        navigator.geolocation.getCurrentPosition(
+
+            function (position) {
+
+                var lat = position.coords.latitude;
+                var lng = position.coords.longitude;
+
+                // Set hidden fields
+                document.getElementById("Latitude").value = lat;
+                document.getElementById("Longitude").value = lng;
+
+                // Show values
+                document.getElementById("latText").innerText = lat;
+                document.getElementById("lngText").innerText = lng;
+
+                // Create map
+                var map = L.map('map').setView([lat, lng], 15);
+
+                // Tile layer
+                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                    attribution: '&copy; OpenStreetMap contributors'
+                }).addTo(map);
+
+                // Draggable marker
+                var marker = L.marker([lat, lng], {
+                    draggable: true
+                }).addTo(map)
+                  .bindPopup('Your Location')
+                  .openPopup();
+
+                // Update when dragging
+                marker.on('dragend', function () {
+
+                    var pos = marker.getLatLng();
+
+                    document.getElementById("Latitude").value = pos.lat;
+                    document.getElementById("Longitude").value = pos.lng;
+
+                    document.getElementById("latText").innerText = pos.lat;
+                    document.getElementById("lngText").innerText = pos.lng;
+                });
+
+                // Optional: move marker on map click
+                map.on('click', function (e) {
+
+                    marker.setLatLng(e.latlng);
+
+                    document.getElementById("Latitude").value = e.latlng.lat;
+                    document.getElementById("Longitude").value = e.latlng.lng;
+
+                    document.getElementById("latText").innerText = e.latlng.lat;
+                    document.getElementById("lngText").innerText = e.latlng.lng;
+                });
+
+            },
+
+            function (error) {
+
+                alert("Location permission denied or unavailable.");
+
+                console.log(error);
+            }
+
+        );
+
+    };
+
+</script>
