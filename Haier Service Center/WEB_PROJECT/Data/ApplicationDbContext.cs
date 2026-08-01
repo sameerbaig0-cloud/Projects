@@ -36,8 +36,9 @@ namespace ServicePlatform.Data
         //public virtual DbSet<IndentMaster> IndentMasters { get; set; }
         //public virtual DbSet<IndentApprovalHistory> IndentApprovalHistorys { get; set; }
         //public virtual DbSet<ItemTypeMaster> ItemTypeMasters { get; set; }
+        public virtual DbSet<ItemMaster> ItemMasters { get; set; }
         //public virtual DbSet<ColorMaster> ColorMasters { get; set; }
-        //public virtual DbSet<UnitMaster> UnitMasters { get; set; }
+        public virtual DbSet<UnitMaster> UnitMasters { get; set; }
         //public virtual DbSet<SizeMaster> SizeMasters { get; set; }
         //public virtual DbSet<ItemColorMergeMaster> ItemColorMergeMasters { get; set; }
         //public virtual DbSet<SupplierMaster> SupplierMasters { get; set; }
@@ -198,11 +199,11 @@ namespace ServicePlatform.Data
 
 
             ////modelBuilder.HasDefaultSchema("dbo");
-            //modelBuilder.Entity<ItemTypeMaster>(entity =>
+            //modelBuilder.Entity<ItemMaster>(entity =>
             //{
-            //	entity.HasKey("Code");
-            //	entity.Property<string>(a => a.ItemCode).IsRequired();
-            //	entity.Property<string>(a => a.ItemName).IsRequired();
+            //    entity.HasKey("ItemID");
+            //    entity.Property<string>(a => a.ItemCode).IsRequired();
+            //    entity.Property<string>(a => a.ItemName).IsRequired();
 
             //});
 
@@ -215,12 +216,12 @@ namespace ServicePlatform.Data
             //});
 
 
-            //modelBuilder.Entity<UnitMaster>(entity =>
-            //{
-            //	entity.HasKey("Code");
-            //	entity.Property<string>(a => a.Code).IsRequired();
-            //	entity.Property<string>(a => a.Name).IsRequired();
-            //});
+            modelBuilder.Entity<UnitMaster>(entity =>
+            {
+                entity.HasKey("UnitID");
+                entity.Property<string>(a => a.UnitCode).IsRequired();
+                entity.Property<string>(a => a.UnitName).IsRequired();
+            });
 
             //modelBuilder.Entity<SizeMaster>(entity =>
             //{
@@ -438,6 +439,17 @@ namespace ServicePlatform.Data
             //				.OnDelete(DeleteBehavior.NoAction);
             //	});
 
+
+            modelBuilder.Entity<ItemMaster>(entity =>
+            {
+                entity.HasKey(i => i.ItemID);
+
+                entity.HasOne(i => i.UnitMaster)
+                      .WithMany(u => u.ItemMasters)
+                      .HasPrincipalKey(i => i.UnitID)
+                      .HasForeignKey(u => u.UnitID)
+                      .OnDelete(DeleteBehavior.NoAction);
+            });
 
 
             //	modelBuilder.Entity<ItemTypeMaster>(entity =>
@@ -713,9 +725,9 @@ namespace ServicePlatform.Data
 
 
             modelBuilder.Entity<CompanyInfo>(entity =>
-            {
-                entity.HasNoKey();
-            });
+        {
+            entity.HasNoKey();
+        });
 
 
             /* POS SALES - STARTS */

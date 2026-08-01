@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ServicePlatform")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+144aac57c1dd9be3ff6513a291c965c5021b410e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ac594aad6a46719e97de8e020e26be649d213250")]
 [assembly: System.Reflection.AssemblyProductAttribute("ServicePlatform")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ServicePlatform")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

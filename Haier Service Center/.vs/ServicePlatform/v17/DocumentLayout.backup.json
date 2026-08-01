@@ -1,9 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Projects\\Haier Service Center\\",
+  "WorkspaceRootPath": "D:\\Projects\\GitHub\\Haier Service Center\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{78DC5D4A-093D-4F86-BA64-79374E23E9BB}|WEB_PROJECT\\ServicePlatform.csproj|d:\\projects\\haier service center\\web_project\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{78DC5D4A-093D-4F86-BA64-79374E23E9BB}|WEB_PROJECT\\ServicePlatform.csproj|d:\\projects\\github\\haier service center\\web_project\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78DC5D4A-093D-4F86-BA64-79374E23E9BB}|WEB_PROJECT\\ServicePlatform.csproj|solutionrelative:web_project\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78DC5D4A-093D-4F86-BA64-79374E23E9BB}|WEB_PROJECT\\ServicePlatform.csproj|d:\\projects\\github\\haier service center\\web_project\\models\\itemmaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78DC5D4A-093D-4F86-BA64-79374E23E9BB}|WEB_PROJECT\\ServicePlatform.csproj|solutionrelative:web_project\\models\\itemmaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78DC5D4A-093D-4F86-BA64-79374E23E9BB}|WEB_PROJECT\\ServicePlatform.csproj|d:\\projects\\github\\haier service center\\web_project\\models\\unitmaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78DC5D4A-093D-4F86-BA64-79374E23E9BB}|WEB_PROJECT\\ServicePlatform.csproj|solutionrelative:web_project\\models\\unitmaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78DC5D4A-093D-4F86-BA64-79374E23E9BB}|WEB_PROJECT\\ServicePlatform.csproj|d:\\projects\\github\\haier service center\\web_project\\models\\userpageauthorization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78DC5D4A-093D-4F86-BA64-79374E23E9BB}|WEB_PROJECT\\ServicePlatform.csproj|solutionrelative:web_project\\models\\userpageauthorization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78DC5D4A-093D-4F86-BA64-79374E23E9BB}|WEB_PROJECT\\ServicePlatform.csproj|d:\\projects\\github\\haier service center\\web_project\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{78DC5D4A-093D-4F86-BA64-79374E23E9BB}|WEB_PROJECT\\ServicePlatform.csproj|solutionrelative:web_project\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -14,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -25,17 +41,72 @@
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserPageAuthorization.cs",
+              "DocumentMoniker": "D:\\Projects\\GitHub\\Haier Service Center\\WEB_PROJECT\\Models\\UserPageAuthorization.cs",
+              "RelativeDocumentMoniker": "WEB_PROJECT\\Models\\UserPageAuthorization.cs",
+              "ToolTip": "D:\\Projects\\GitHub\\Haier Service Center\\WEB_PROJECT\\Models\\UserPageAuthorization.cs",
+              "RelativeToolTip": "WEB_PROJECT\\Models\\UserPageAuthorization.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T16:33:38.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UnitMaster.cs",
+              "DocumentMoniker": "D:\\Projects\\GitHub\\Haier Service Center\\WEB_PROJECT\\Models\\UnitMaster.cs",
+              "RelativeDocumentMoniker": "WEB_PROJECT\\Models\\UnitMaster.cs",
+              "ToolTip": "D:\\Projects\\GitHub\\Haier Service Center\\WEB_PROJECT\\Models\\UnitMaster.cs",
+              "RelativeToolTip": "WEB_PROJECT\\Models\\UnitMaster.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T16:15:41.691Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\Projects\\Haier Service Center\\WEB_PROJECT\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "WEB_PROJECT\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\Projects\\Haier Service Center\\WEB_PROJECT\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "WEB_PROJECT\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\Projects\\GitHub\\Haier Service Center\\WEB_PROJECT\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "WEB_PROJECT\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\Projects\\GitHub\\Haier Service Center\\WEB_PROJECT\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "WEB_PROJECT\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAK8BAAAAAAAAAAAAAMMBAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-31T18:12:54.394Z",
+              "WhenOpened": "2026-08-01T14:12:23.88Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ItemMaster.cs",
+              "DocumentMoniker": "D:\\Projects\\GitHub\\Haier Service Center\\WEB_PROJECT\\Models\\ItemMaster.cs",
+              "RelativeDocumentMoniker": "WEB_PROJECT\\Models\\ItemMaster.cs",
+              "ToolTip": "D:\\Projects\\GitHub\\Haier Service Center\\WEB_PROJECT\\Models\\ItemMaster.cs",
+              "RelativeToolTip": "WEB_PROJECT\\Models\\ItemMaster.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-31T19:58:08.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Projects\\GitHub\\Haier Service Center\\WEB_PROJECT\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WEB_PROJECT\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Projects\\GitHub\\Haier Service Center\\WEB_PROJECT\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WEB_PROJECT\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-31T18:12:54.394Z"
             }
           ]
         }

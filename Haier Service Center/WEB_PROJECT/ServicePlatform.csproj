@@ -31,7 +31,6 @@
     <Compile Remove="Models\SupplierPaymentTerm.cs" />
     <Compile Remove="Models\TaxMaster.cs" />
     <Compile Remove="Models\TrailingOrderVw.cs" />
-    <Compile Remove="Models\UnitMaster.cs" />
   </ItemGroup>
 
   <ItemGroup>

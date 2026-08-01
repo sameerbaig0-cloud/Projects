@@ -10,15 +10,22 @@ namespace ServicePlatform.Models
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public long ItemID { get; set; }
 
-        public string ItemCode { get; set; }
+        public required string ItemCode { get; set; }
 
-        public string ItemName { get; set; }
+        public required string ItemName { get; set; }
 
         public long UnitID { get; set; }
 
         public string CreatedDateTime { get; set; }
 
         public bool IsActive { get; set; }
+
+
+
+
+        [ForeignKey("UnitID")]
+        public virtual UnitMaster? UnitMaster { get; set; } = null!; // Required reference navigation to principal
+
 
     }
 }

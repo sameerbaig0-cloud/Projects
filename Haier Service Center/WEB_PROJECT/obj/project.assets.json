@@ -11170,11 +11170,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\Haier Service Center\\WEB_PROJECT\\ServicePlatform.csproj",
+      "projectUniqueName": "D:\\Projects\\GitHub\\Haier Service Center\\WEB_PROJECT\\ServicePlatform.csproj",
       "projectName": "ServicePlatform",
-      "projectPath": "D:\\Projects\\Haier Service Center\\WEB_PROJECT\\ServicePlatform.csproj",
+      "projectPath": "D:\\Projects\\GitHub\\Haier Service Center\\WEB_PROJECT\\ServicePlatform.csproj",
       "packagesPath": "C:\\Users\\Afnan MS\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\Haier Service Center\\WEB_PROJECT\\obj\\",
+      "outputPath": "D:\\Projects\\GitHub\\Haier Service Center\\WEB_PROJECT\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
