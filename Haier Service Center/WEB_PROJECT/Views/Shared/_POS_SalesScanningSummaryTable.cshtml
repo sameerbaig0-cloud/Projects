@@ -70,7 +70,7 @@
 				<td data-label="Total">@item.Total</td>
 				<td data-label="TaxValue" hidden>@item.TaxableValue</td>
 				<td data-label="Delete">
-					<button type="button" class="btn btn-danger btn-sm deleteBtn" data-id="@item.ID">
+					<button type="button" class="btn btn-danger btn-sm deleteBtn" data-id="@Encrypt.Encrypt(item.ID)">
 						<i class="bi bi-trash"></i>
 					</button>
 				</td> <!-- Delete button -->

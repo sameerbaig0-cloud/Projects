@@ -96,10 +96,10 @@
 					@Html.DisplayFor(modelItem => item.CreatedTime)
 				</td>
 				<td>
-					<a asp-action="PrintInvoice" asp-route-id="@item.InvoiceID" class="btn btn-secondary btn-sm" target="_blank">  <i class="bi bi-printer"></i>  </a>
-					@* 					<a asp-action="Edit" asp-route-id="@item.InvoiceID">Edit</a> |
-				<a asp-action="Details" asp-route-id="@item.InvoiceID">Details</a> |
-				<a asp-action="Delete" asp-route-id="@item.InvoiceID">Delete</a> *@
+					<a asp-action="PrintInvoice" asp-route-id="@Encrypt.Encrypt(item.InvoiceID)" class="btn btn-secondary btn-sm" target="_blank">  <i class="bi bi-printer"></i>  </a>
+					@* 					<a asp-action="Edit" asp-route-id="@Encrypt.Encrypt(item.InvoiceID">Edit</a> |
+				<a asp-action="Details" asp-route-id="@Encrypt.Encrypt(item.InvoiceID">Details</a> |
+				<a asp-action="Delete" asp-route-id="@Encrypt.Encrypt(item.InvoiceID">Delete</a> *@
 				</td>
 			</tr>
 		}

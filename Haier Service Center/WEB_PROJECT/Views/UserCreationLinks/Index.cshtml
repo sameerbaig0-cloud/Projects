@@ -47,9 +47,9 @@
                 @Html.DisplayFor(modelItem => item.IsActive)
             </td>
 @*             <td>
-                <a asp-action="Edit" asp-route-id="@item.CreationID">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.CreationID">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.CreationID">Delete</a>
+                <a asp-action="Edit" asp-route-id="@Encrypt.Encrypt(item.CreationID">Edit</a> |
+                <a asp-action="Details" asp-route-id="@Encrypt.Encrypt(item.CreationID">Details</a> |
+                <a asp-action="Delete" asp-route-id="@Encrypt.Encrypt(item.CreationID">Delete</a>
             </td>
  *@        </tr>
 }

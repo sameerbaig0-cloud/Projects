@@ -97,9 +97,9 @@
                     @Html.CheckBoxFor(modelItem => item.IsActive, new { disabled = "disabled" })
                 </td>
                 <td>
-                    <a asp-action="Edit" asp-route-id="@item.ShowRoomId">Edit</a> |
-                    <a asp-action="Details" asp-route-id="@item.ShowRoomId">Details</a> |
-                    <a asp-action="Delete" asp-route-id="@item.ShowRoomId">Delete</a>
+                    <a asp-action="Edit" asp-route-id="@Encrypt.Encrypt(item.ShowRoomId)">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@Encrypt.Encrypt(item.ShowRoomId)">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@Encrypt.Encrypt(item.ShowRoomId)">Delete</a>
                 </td>
             </tr>
         }

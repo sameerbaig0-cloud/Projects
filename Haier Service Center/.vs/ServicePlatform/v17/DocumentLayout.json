@@ -3,30 +3,6 @@
   "WorkspaceRootPath": "D:\\Projects\\Haier Service Center\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{78DC5D4A-093D-4F86-BA64-79374E23E9BB}|WEB_PROJECT\\ServicePlatform.csproj|d:\\projects\\haier service center\\web_project\\views\\itemmasters\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{78DC5D4A-093D-4F86-BA64-79374E23E9BB}|WEB_PROJECT\\ServicePlatform.csproj|solutionrelative:web_project\\views\\itemmasters\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78DC5D4A-093D-4F86-BA64-79374E23E9BB}|WEB_PROJECT\\ServicePlatform.csproj|d:\\projects\\haier service center\\web_project\\views\\itemmasters\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{78DC5D4A-093D-4F86-BA64-79374E23E9BB}|WEB_PROJECT\\ServicePlatform.csproj|solutionrelative:web_project\\views\\itemmasters\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78DC5D4A-093D-4F86-BA64-79374E23E9BB}|WEB_PROJECT\\ServicePlatform.csproj|d:\\projects\\haier service center\\web_project\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{78DC5D4A-093D-4F86-BA64-79374E23E9BB}|WEB_PROJECT\\ServicePlatform.csproj|solutionrelative:web_project\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78DC5D4A-093D-4F86-BA64-79374E23E9BB}|WEB_PROJECT\\ServicePlatform.csproj|d:\\projects\\haier service center\\web_project\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78DC5D4A-093D-4F86-BA64-79374E23E9BB}|WEB_PROJECT\\ServicePlatform.csproj|solutionrelative:web_project\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78DC5D4A-093D-4F86-BA64-79374E23E9BB}|WEB_PROJECT\\ServicePlatform.csproj|d:\\projects\\haier service center\\web_project\\serviceplatform.security\\modelbinders\\encryptedidmodelbinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78DC5D4A-093D-4F86-BA64-79374E23E9BB}|WEB_PROJECT\\ServicePlatform.csproj|solutionrelative:web_project\\serviceplatform.security\\modelbinders\\encryptedidmodelbinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78DC5D4A-093D-4F86-BA64-79374E23E9BB}|WEB_PROJECT\\ServicePlatform.csproj|d:\\projects\\haier service center\\web_project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78DC5D4A-093D-4F86-BA64-79374E23E9BB}|WEB_PROJECT\\ServicePlatform.csproj|solutionrelative:web_project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{78DC5D4A-093D-4F86-BA64-79374E23E9BB}|WEB_PROJECT\\ServicePlatform.csproj|d:\\projects\\haier service center\\web_project\\views\\showrooms\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{78DC5D4A-093D-4F86-BA64-79374E23E9BB}|WEB_PROJECT\\ServicePlatform.csproj|solutionrelative:web_project\\views\\showrooms\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -62,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -78,98 +54,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "D:\\Projects\\Haier Service Center\\WEB_PROJECT\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "WEB_PROJECT\\Views\\_ViewImports.cshtml",
-              "ToolTip": "D:\\Projects\\Haier Service Center\\WEB_PROJECT\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "WEB_PROJECT\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-02T16:13:16.522Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EncryptedIdModelBinder.cs",
-              "DocumentMoniker": "D:\\Projects\\Haier Service Center\\WEB_PROJECT\\ServicePlatform.Security\\ModelBinders\\EncryptedIdModelBinder.cs",
-              "RelativeDocumentMoniker": "WEB_PROJECT\\ServicePlatform.Security\\ModelBinders\\EncryptedIdModelBinder.cs",
-              "ToolTip": "D:\\Projects\\Haier Service Center\\WEB_PROJECT\\ServicePlatform.Security\\ModelBinders\\EncryptedIdModelBinder.cs",
-              "RelativeToolTip": "WEB_PROJECT\\ServicePlatform.Security\\ModelBinders\\EncryptedIdModelBinder.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCkAAABTAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-02T15:54:22.824Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Startup.cs",
-              "DocumentMoniker": "D:\\Projects\\Haier Service Center\\WEB_PROJECT\\Startup.cs",
-              "RelativeDocumentMoniker": "WEB_PROJECT\\Startup.cs",
-              "ToolTip": "D:\\Projects\\Haier Service Center\\WEB_PROJECT\\Startup.cs",
-              "RelativeToolTip": "WEB_PROJECT\\Startup.cs",
-              "ViewState": "AgIAAFgAAAAAAAAAAAArwHQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-02T15:36:21.739Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Projects\\Haier Service Center\\WEB_PROJECT\\Program.cs",
-              "RelativeDocumentMoniker": "WEB_PROJECT\\Program.cs",
-              "ToolTip": "D:\\Projects\\Haier Service Center\\WEB_PROJECT\\Program.cs",
-              "RelativeToolTip": "WEB_PROJECT\\Program.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAuwA0AAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-02T14:20:50.486Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Projects\\Haier Service Center\\WEB_PROJECT\\Views\\ItemMasters\\Index.cshtml",
-              "RelativeDocumentMoniker": "WEB_PROJECT\\Views\\ItemMasters\\Index.cshtml",
-              "ToolTip": "D:\\Projects\\Haier Service Center\\WEB_PROJECT\\Views\\ItemMasters\\Index.cshtml",
-              "RelativeToolTip": "WEB_PROJECT\\Views\\ItemMasters\\Index.cshtml",
-              "ViewState": "AgIAABwAAAAAAAAAAAAAADUAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-02T13:49:30.08Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\Projects\\Haier Service Center\\WEB_PROJECT\\Views\\ItemMasters\\Edit.cshtml",
-              "RelativeDocumentMoniker": "WEB_PROJECT\\Views\\ItemMasters\\Edit.cshtml",
-              "ToolTip": "D:\\Projects\\Haier Service Center\\WEB_PROJECT\\Views\\ItemMasters\\Edit.cshtml",
-              "RelativeToolTip": "WEB_PROJECT\\Views\\ItemMasters\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-02T13:48:44.237Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\Projects\\Haier Service Center\\WEB_PROJECT\\Views\\ShowRooms\\Create.cshtml",
               "RelativeDocumentMoniker": "WEB_PROJECT\\Views\\ShowRooms\\Create.cshtml",
               "ToolTip": "D:\\Projects\\Haier Service Center\\WEB_PROJECT\\Views\\ShowRooms\\Create.cshtml",
               "RelativeToolTip": "WEB_PROJECT\\Views\\ShowRooms\\Create.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAC8AAABRAAAAAAAAAA==",
+              "ViewState": "AgIAAOsAAAAAAAAAAAAAAC8AAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-08-02T13:16:45.836Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\Projects\\Haier Service Center\\WEB_PROJECT\\Views\\ItemMasters\\Create.cshtml",
               "RelativeDocumentMoniker": "WEB_PROJECT\\Views\\ItemMasters\\Create.cshtml",
@@ -177,12 +75,11 @@
               "RelativeToolTip": "WEB_PROJECT\\Views\\ItemMasters\\Create.cshtml",
               "ViewState": "AgIAADwAAAAAAAAAAAAAAF8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-01T21:33:16.212Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-01T21:33:16.212Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 4,
               "Title": "ShowRoomsController.cs",
               "DocumentMoniker": "D:\\Projects\\Haier Service Center\\WEB_PROJECT\\Controllers\\ShowRoomsController.cs",
               "RelativeDocumentMoniker": "WEB_PROJECT\\Controllers\\ShowRoomsController.cs",
@@ -195,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 3,
               "Title": "ItemMaster.cs",
               "DocumentMoniker": "D:\\Projects\\Haier Service Center\\WEB_PROJECT\\Models\\ItemMaster.cs",
               "RelativeDocumentMoniker": "WEB_PROJECT\\Models\\ItemMaster.cs",
@@ -203,12 +100,11 @@
               "RelativeToolTip": "WEB_PROJECT\\Models\\ItemMaster.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-01T21:17:03.464Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-01T21:17:03.464Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 5,
               "Title": "UnitMaster.cs",
               "DocumentMoniker": "D:\\Projects\\Haier Service Center\\WEB_PROJECT\\Models\\UnitMaster.cs",
               "RelativeDocumentMoniker": "WEB_PROJECT\\Models\\UnitMaster.cs",
@@ -216,12 +112,11 @@
               "RelativeToolTip": "WEB_PROJECT\\Models\\UnitMaster.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-01T21:15:09.384Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-01T21:15:09.384Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
               "Title": "ItemMastersController.cs",
               "DocumentMoniker": "D:\\Projects\\Haier Service Center\\WEB_PROJECT\\Controllers\\ItemMastersController.cs",
               "RelativeDocumentMoniker": "WEB_PROJECT\\Controllers\\ItemMastersController.cs",
@@ -234,7 +129,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 6,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\Projects\\Haier Service Center\\WEB_PROJECT\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "WEB_PROJECT\\Controllers\\HomeController.cs",
