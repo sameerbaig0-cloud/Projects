@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "L6Ecc2XqT/8=",
+  "dgSpecHash": "tBiQ6Zeu9qI=",
   "success": true,
-  "projectFilePath": "D:\\Projects\\GitHub\\Haier Service Center\\WEB_PROJECT\\ServicePlatform.csproj",
+  "projectFilePath": "D:\\Projects\\Haier Service Center\\WEB_PROJECT\\ServicePlatform.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Afnan MS\\.nuget\\packages\\aspnetcore.reporting\\2.1.0\\aspnetcore.reporting.2.1.0.nupkg.sha512",
     "C:\\Users\\Afnan MS\\.nuget\\packages\\aspnetcore.reportingservices\\2.1.0\\aspnetcore.reportingservices.2.1.0.nupkg.sha512",

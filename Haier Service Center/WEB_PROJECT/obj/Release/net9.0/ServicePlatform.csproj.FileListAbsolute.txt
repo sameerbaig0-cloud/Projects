@@ -3416,7 +3416,6 @@ D:\Projects\Haier Service Center\WEB_PROJECT\obj\Release\net9.0\ServicePlatform.
 D:\Projects\Haier Service Center\WEB_PROJECT\obj\Release\net9.0\ServicePlatform.MvcApplicationPartsAssemblyInfo.cache
 D:\Projects\Haier Service Center\WEB_PROJECT\obj\Release\net9.0\ServicePlatform.RazorAssemblyInfo.cache
 D:\Projects\Haier Service Center\WEB_PROJECT\obj\Release\net9.0\ServicePlatform.RazorAssemblyInfo.cs
-D:\Projects\Haier Service Center\WEB_PROJECT\obj\Release\net9.0\ServicePlatform.sourcelink.json
 D:\Projects\Haier Service Center\WEB_PROJECT\obj\Release\net9.0\rjimswa.dswa.cache.json
 D:\Projects\Haier Service Center\WEB_PROJECT\obj\Release\net9.0\rjsmrazor.dswa.cache.json
 D:\Projects\Haier Service Center\WEB_PROJECT\obj\Release\net9.0\rjsmcshtml.dswa.cache.json

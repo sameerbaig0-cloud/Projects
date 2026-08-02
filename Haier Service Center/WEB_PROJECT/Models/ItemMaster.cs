@@ -16,7 +16,7 @@ namespace ServicePlatform.Models
 
         public long UnitID { get; set; }
 
-        public string CreatedDateTime { get; set; }
+        public DateTime CreatedDateTime { get; set; }
 
         public bool IsActive { get; set; }
 

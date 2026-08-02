@@ -1,0 +1,95 @@
+﻿@model ServicePlatform.Models.ItemMaster
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@*Load CSS for Editable Select - BEGIN *@
+<link href="~/lib/jquery-select/css/select2.min.css" rel="stylesheet" />
+@*Load CSS for Editable Select - END *@
+
+
+<style>
+
+    .select2-container {
+        width: 100% !important;
+    }
+
+    .select2-selection--single {
+        height: 38px !important;
+        padding-top: 4px;
+    }
+
+    .select2-selection__arrow {
+        height: 38px !important;
+    }
+
+</style>
+
+<h1>Create</h1>
+
+<h4>ItemMaster</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4" id="itemMastermodel">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="ItemCode" class="control-label"></label>
+                <input asp-for="ItemCode" class="form-control" />
+                <span asp-validation-for="ItemCode" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ItemName" class="control-label"></label>
+                <input asp-for="ItemName" class="form-control" />
+                <span asp-validation-for="ItemName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="UnitID" class="control-label"></label>
+                <select asp-for="UnitID" asp-items="ViewBag.UnitID" id="UnitID" class="form-control select-items">
+                    <option value="">-- Select Unit ID --</option>
+                </select>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="IsActive" /> @Html.DisplayNameFor(model => model.IsActive)
+                </label>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+
+
+
+@section Scripts
+{
+
+    <script src="~/lib/jquery/dist/jquery-3.6.0.min.js"></script>
+    <script src="~/lib/jquery-select/js/select2.min.js"></script>
+
+    <script>
+
+        $(document).ready(function () {
+
+                    // Initialize Select2
+                    $('.select-items').select2({
+                        width: '100%',
+                        placeholder: '-- Select --',
+                        allowClear: true,
+                        dropdownParent: $('#itemMastermodel')
+                    });
+
+        });
+
+    </script>
+}
+

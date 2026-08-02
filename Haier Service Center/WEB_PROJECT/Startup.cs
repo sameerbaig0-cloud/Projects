@@ -1,19 +1,21 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http.Features;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Options;
 using ServicePlatform.Data;
-using ServicePlatform.Models;
 using ServicePlatform.Interface;
+using ServicePlatform.Models;
+using ServicePlatform.Security.Encryption;
+using ServicePlatform.Security.Extensions;
 using ServicePlatform.Services;
-using Microsoft.AspNetCore.Http.Features;
 //using PageAccessLogger.Middleware;
 //using ClickEventAuthorizeAttribute.Middleware;
 using System.Net;
-using Microsoft.Extensions.Options;
 
 
 namespace ServicePlatform
@@ -65,9 +67,9 @@ namespace ServicePlatform
 			services.AddControllersWithViews(options =>
 			{
 				options.Filters.AddService<ValidateAntiForgeryHeader>();				
-			});
+			}).AddRazorRuntimeCompilation();
 
-            services.AddControllersWithViews().AddRazorRuntimeCompilation();
+            //services.AddControllersWithViews().AddRazorRuntimeCompilation();
 
 
             //services.AddControllersWithViews();
@@ -108,9 +110,15 @@ namespace ServicePlatform
 			// Register the article picture service globally
 			services.AddTransient<IArticlePictureService, ArticlePictureService>();
 
+            // Register the url As Encryption Service
 
-			// Other service registrations
-			services.AddSingleton<INumberToWordsConverter, NumberToWordsConverter>();
+            services.AddSingleton<IUrlEncryptionService, UrlEncryptionService>();
+            services.AddMvcUrlEncryption();
+            // Register the url As Encryption Service
+
+
+            // Other service registrations
+            services.AddSingleton<INumberToWordsConverter, NumberToWordsConverter>();
 			// Other service registrations
 
 
