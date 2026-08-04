@@ -1,0 +1,157 @@
+﻿@model ServicePlatform.Models.POS_RetailPrice
+
+@{
+	ViewData["Title"] = "Create";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+@*Load CSS for Editable Select - BEGIN *@
+<link href="~/lib/jquery-select/css/select2.min.css" rel="stylesheet" />
+@*Load CSS for Editable Select - END *@
+
+
+<style>
+	.loading-overlay {
+		display: none;
+		background: rgba(255, 255, 255, 0.7);
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		top: 0;
+		z-index: 9998;
+		align-items: center;
+		justify-content: center;
+	}
+
+		.loading-overlay.is-active {
+			display: flex;
+		}
+
+		.loading-overlay .spinner-border {
+			font-size: 3rem;
+		}
+</style>
+
+
+
+<h3>Create</h3>
+
+<h4>POS Retail Price</h4>
+<hr />
+<div class="row">
+	<div class="col-md-4">
+		<form asp-action="Create">
+			<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+			<div class="form-group">
+				<label asp-for="ItemID" class="control-label"></label>
+				<select asp-for="ItemID" class="select-items form-control" asp-items="ViewBag.ItemName"></select>
+			</div>
+			<div class="form-group">
+				<label asp-for="Price" class="control-label"></label>
+				<input asp-for="Price" class="form-control" />
+				<span asp-validation-for="Price" class="text-danger"></span>
+			</div>
+			<div class="form-group">
+				<label asp-for="TaxID" class="control-label"></label>
+				<select asp-for="TaxID" class="select-items form-control" asp-items="ViewBag.TaxID"></select>
+			</div>
+			@*             <div class="form-group">
+			<label asp-for="ModifiedDatetime" class="control-label"></label>
+			<input asp-for="ModifiedDatetime" class="form-control" />
+			<span asp-validation-for="ModifiedDatetime" class="text-danger"></span>
+			</div>
+			<div class="form-group form-check">
+			<label class="form-check-label">
+			<input class="form-check-input" asp-for="IsActive" /> @Html.DisplayNameFor(model => model.IsActive)
+			</label>
+			</div> *@
+			<div class="form-group mt-1">
+				<input type="submit" id="submitButton" value="Create" class="btn btn-primary" />
+			</div>
+		</form>
+	</div>
+</div>
+
+<div>
+	<a asp-action="Index">Back to List</a>
+</div>
+
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="alertModal" tabindex="-1" aria-labelledby="alertModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="alertModalLabel">Alert</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body">
+				@ViewBag.OutRemarks
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<div class="loading-overlay">
+	<div class="spinner-border text-primary" role="status">
+		<span class="visually-hidden">Loading...</span>
+	</div>
+</div>
+
+
+
+@section Scripts {
+
+@*Load CSS for Editable Select - BEGIN *@
+<script src="~/lib/jquery-select/js/select2.min.js"></script>
+@*Load CSS for Editable Select - END *@
+
+
+@*/* SCRIPT FOR DROPDOWNLIST - BEGINS */*@
+	<script>
+	//jQuery.noConflict(true);
+
+		$(function () {
+			$('.select-items').select2({
+				dropdownParent: $('#qrForm')
+			});
+
+			$('.select-items').select2({ width: '100%' });
+		});
+	</script>
+@*/* SCRIPT FOR DROPDOWNLIST - ENDS */*@
+
+
+
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			var outRemarks = "@ViewBag.OutRemarks";
+			if (outRemarks) {
+				var alertModal = new bootstrap.Modal(document.getElementById('alertModal'));
+				alertModal.show();
+			}
+		});
+
+		document.getElementById('submitButton').addEventListener('click', function () {
+			var overlay = document.querySelector('.loading-overlay');
+			overlay.classList.add('is-active');
+		});
+	</script>
+
+
+}
+
+
+
+
+

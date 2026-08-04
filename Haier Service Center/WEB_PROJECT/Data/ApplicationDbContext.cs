@@ -36,7 +36,7 @@ namespace ServicePlatform.Data
         //public virtual DbSet<IndentMaster> IndentMasters { get; set; }
         //public virtual DbSet<IndentApprovalHistory> IndentApprovalHistorys { get; set; }
         //public virtual DbSet<ItemTypeMaster> ItemTypeMasters { get; set; }
-        public virtual DbSet<ItemMaster> ItemMasters { get; set; }
+        public virtual DbSet<POS_ItemMaster> POS_ItemMasters { get; set; }
         //public virtual DbSet<ColorMaster> ColorMasters { get; set; }
         public virtual DbSet<UnitMaster> UnitMasters { get; set; }
         //public virtual DbSet<SizeMaster> SizeMasters { get; set; }
@@ -199,7 +199,7 @@ namespace ServicePlatform.Data
 
 
             ////modelBuilder.HasDefaultSchema("dbo");
-            //modelBuilder.Entity<ItemMaster>(entity =>
+            //modelBuilder.Entity<POS_ItemMaster>(entity =>
             //{
             //    entity.HasKey("ItemID");
             //    entity.Property<string>(a => a.ItemCode).IsRequired();
@@ -440,12 +440,12 @@ namespace ServicePlatform.Data
             //	});
 
 
-            modelBuilder.Entity<ItemMaster>(entity =>
+            modelBuilder.Entity<POS_ItemMaster>(entity =>
             {
                 entity.HasKey(i => i.ItemID);
 
                 entity.HasOne(i => i.UnitMaster)
-                      .WithMany(u => u.ItemMasters)
+                      .WithMany(u => u.POS_ItemMasters)
                       .HasPrincipalKey(i => i.UnitID)
                       .HasForeignKey(u => u.UnitID)
                       .OnDelete(DeleteBehavior.NoAction);
@@ -851,31 +851,31 @@ namespace ServicePlatform.Data
             //});
 
 
-            //modelBuilder.Entity<POS_RetailPrice>(entity =>
-            //{
-            //	entity.HasKey(p => p.PriceID);
+            modelBuilder.Entity<POS_RetailPrice>(entity =>
+            {
+                entity.HasKey(p => p.PriceID);
 
 
-            //	entity.HasOne(p => p.ArticleMaster)
-            //	.WithMany(it => it.POS_RetailPrices)
-            //	.HasPrincipalKey(p => p.Article)
-            //	.HasForeignKey(it => it.ArticleNo)
-            //	.OnDelete(DeleteBehavior.NoAction);
+                entity.HasOne(p => p.POS_ItemMaster)
+                .WithMany(it => it.POS_RetailPrices)
+                .HasPrincipalKey(p => p.ItemID)
+                .HasForeignKey(it => it.ItemID)
+                .OnDelete(DeleteBehavior.NoAction);
 
 
-            //	entity.HasOne(t => t.POS_Taxation)
-            //	.WithMany(r => r.POS_RetailPrices)
-            //	.HasPrincipalKey(t => t.TaxID)
-            //	.HasForeignKey(r => r.TaxID)
-            //	.OnDelete(DeleteBehavior.NoAction);
+                entity.HasOne(t => t.POS_Taxation)
+                .WithMany(r => r.POS_RetailPrices)
+                .HasPrincipalKey(t => t.TaxID)
+                .HasForeignKey(r => r.TaxID)
+                .OnDelete(DeleteBehavior.NoAction);
 
-            //	entity.HasOne(t => t.ApplicationUser)
-            //	.WithMany(r => r.POS_RetailPrices)
-            //	.HasPrincipalKey(t => t.Id)
-            //	.HasForeignKey(r => r.UserID)
-            //	.OnDelete(DeleteBehavior.NoAction);
+                entity.HasOne(t => t.ApplicationUser)
+                .WithMany(r => r.POS_RetailPrices)
+                .HasPrincipalKey(t => t.Id)
+                .HasForeignKey(r => r.UserID)
+                .OnDelete(DeleteBehavior.NoAction);
 
-            //});
+            });
 
 
             modelBuilder.Entity<POS_PackingToRetailTransfer>(entity =>

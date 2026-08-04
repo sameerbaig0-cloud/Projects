@@ -224,26 +224,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/Haier Service Center/WEB_PROJECT/Views/ItemMasters/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbU1hc3RlcnNcQ3JlYXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Projects/Haier Service Center/WEB_PROJECT/Views/ItemMasters/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbU1hc3RlcnNcRGVsZXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Projects/Haier Service Center/WEB_PROJECT/Views/ItemMasters/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbU1hc3RlcnNcRGV0YWlscy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Projects/Haier Service Center/WEB_PROJECT/Views/ItemMasters/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbU1hc3RlcnNcRWRpdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Projects/Haier Service Center/WEB_PROJECT/Views/ItemMasters/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbU1hc3RlcnNcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [D:/Projects/Haier Service Center/WEB_PROJECT/Views/POSSales/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUE9TU2FsZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -270,6 +250,46 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Projects/Haier Service Center/WEB_PROJECT/Views/POS_Customers/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUE9TX0N1c3RvbWVyc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/Haier Service Center/WEB_PROJECT/Views/POS_ItemMasters/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUE9TX0l0ZW1NYXN0ZXJzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/Haier Service Center/WEB_PROJECT/Views/POS_ItemMasters/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUE9TX0l0ZW1NYXN0ZXJzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/Haier Service Center/WEB_PROJECT/Views/POS_ItemMasters/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUE9TX0l0ZW1NYXN0ZXJzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/Haier Service Center/WEB_PROJECT/Views/POS_ItemMasters/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUE9TX0l0ZW1NYXN0ZXJzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/Haier Service Center/WEB_PROJECT/Views/POS_ItemMasters/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUE9TX0l0ZW1NYXN0ZXJzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/Haier Service Center/WEB_PROJECT/Views/POS_RetailPrice/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUE9TX1JldGFpbFByaWNlXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/Haier Service Center/WEB_PROJECT/Views/POS_RetailPrice/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUE9TX1JldGFpbFByaWNlXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/Haier Service Center/WEB_PROJECT/Views/POS_RetailPrice/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUE9TX1JldGFpbFByaWNlXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/Haier Service Center/WEB_PROJECT/Views/POS_RetailPrice/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUE9TX1JldGFpbFByaWNlXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/Haier Service Center/WEB_PROJECT/Views/POS_RetailPrice/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUE9TX1JldGFpbFByaWNlXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Projects/Haier Service Center/WEB_PROJECT/Views/RetailPriceTag/Index.cshtml]

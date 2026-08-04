@@ -13,8 +13,7 @@ namespace ServicePlatform.Models
 		public long PriceID { get; set; }
 
 		[Required]
-		[MaxLength(20)]
-		public string ArticleNo { get; set; }
+		public long ItemID { get; set; }
 
 
 		[Display(Name = "Price")]
@@ -35,14 +34,17 @@ namespace ServicePlatform.Models
 
 
 
-		//public virtual ICollection<POS_InvoiceItem> POS_InvoiceItems { get; set; } = new List<POS_InvoiceItem>();
+        //public virtual ICollection<POS_InvoiceItem> POS_InvoiceItems { get; set; } = new List<POS_InvoiceItem>();
 
 
-		//[ForeignKey("ArticleNo")]
-		//public virtual ArticleMaster? ArticleMaster { get; set; }  // Required reference navigation to principal
+        //[ForeignKey("ArticleNo")]
+        //public virtual ArticleMaster? ArticleMaster { get; set; }  // Required reference navigation to principal
+
+        [ForeignKey("ItemID")]
+        public virtual POS_ItemMaster? POS_ItemMaster { get; set; }  // Required reference navigation to principal
 
 
-		[ForeignKey("TaxID")]
+        [ForeignKey("TaxID")]
 		public virtual POS_Taxation? POS_Taxation { get; set; }  // Required reference navigation to principal
 
 

@@ -3,32 +3,36 @@
   "WorkspaceRootPath": "D:\\Projects\\Haier Service Center\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{78DC5D4A-093D-4F86-BA64-79374E23E9BB}|WEB_PROJECT\\ServicePlatform.csproj|d:\\projects\\haier service center\\web_project\\views\\showrooms\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{78DC5D4A-093D-4F86-BA64-79374E23E9BB}|WEB_PROJECT\\ServicePlatform.csproj|solutionrelative:web_project\\views\\showrooms\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{78DC5D4A-093D-4F86-BA64-79374E23E9BB}|WEB_PROJECT\\ServicePlatform.csproj|d:\\projects\\haier service center\\web_project\\serviceplatform.security\\modelbinders\\encryptedidmodelbinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78DC5D4A-093D-4F86-BA64-79374E23E9BB}|WEB_PROJECT\\ServicePlatform.csproj|solutionrelative:web_project\\serviceplatform.security\\modelbinders\\encryptedidmodelbinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78DC5D4A-093D-4F86-BA64-79374E23E9BB}|WEB_PROJECT\\ServicePlatform.csproj|d:\\projects\\haier service center\\web_project\\views\\itemmasters\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{78DC5D4A-093D-4F86-BA64-79374E23E9BB}|WEB_PROJECT\\ServicePlatform.csproj|solutionrelative:web_project\\views\\itemmasters\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{78DC5D4A-093D-4F86-BA64-79374E23E9BB}|WEB_PROJECT\\ServicePlatform.csproj|d:\\projects\\haier service center\\web_project\\controllers\\clickeventauthorizationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78DC5D4A-093D-4F86-BA64-79374E23E9BB}|WEB_PROJECT\\ServicePlatform.csproj|solutionrelative:web_project\\controllers\\clickeventauthorizationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78DC5D4A-093D-4F86-BA64-79374E23E9BB}|WEB_PROJECT\\ServicePlatform.csproj|d:\\projects\\haier service center\\web_project\\controllers\\itemmasterscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78DC5D4A-093D-4F86-BA64-79374E23E9BB}|WEB_PROJECT\\ServicePlatform.csproj|solutionrelative:web_project\\controllers\\itemmasterscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{78DC5D4A-093D-4F86-BA64-79374E23E9BB}|WEB_PROJECT\\ServicePlatform.csproj|d:\\projects\\haier service center\\web_project\\views\\clickeventauthorizations\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{78DC5D4A-093D-4F86-BA64-79374E23E9BB}|WEB_PROJECT\\ServicePlatform.csproj|solutionrelative:web_project\\views\\clickeventauthorizations\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78DC5D4A-093D-4F86-BA64-79374E23E9BB}|WEB_PROJECT\\ServicePlatform.csproj|d:\\projects\\haier service center\\web_project\\models\\itemmaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78DC5D4A-093D-4F86-BA64-79374E23E9BB}|WEB_PROJECT\\ServicePlatform.csproj|solutionrelative:web_project\\models\\itemmaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{78DC5D4A-093D-4F86-BA64-79374E23E9BB}|WEB_PROJECT\\ServicePlatform.csproj|d:\\projects\\haier service center\\web_project\\views\\clickeventauthorizations\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{78DC5D4A-093D-4F86-BA64-79374E23E9BB}|WEB_PROJECT\\ServicePlatform.csproj|solutionrelative:web_project\\views\\clickeventauthorizations\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78DC5D4A-093D-4F86-BA64-79374E23E9BB}|WEB_PROJECT\\ServicePlatform.csproj|d:\\projects\\haier service center\\web_project\\controllers\\showroomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78DC5D4A-093D-4F86-BA64-79374E23E9BB}|WEB_PROJECT\\ServicePlatform.csproj|solutionrelative:web_project\\controllers\\showroomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{78DC5D4A-093D-4F86-BA64-79374E23E9BB}|WEB_PROJECT\\ServicePlatform.csproj|d:\\projects\\haier service center\\web_project\\controllers\\pos_itemmasterscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78DC5D4A-093D-4F86-BA64-79374E23E9BB}|WEB_PROJECT\\ServicePlatform.csproj|solutionrelative:web_project\\controllers\\pos_itemmasterscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78DC5D4A-093D-4F86-BA64-79374E23E9BB}|WEB_PROJECT\\ServicePlatform.csproj|d:\\projects\\haier service center\\web_project\\models\\unitmaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78DC5D4A-093D-4F86-BA64-79374E23E9BB}|WEB_PROJECT\\ServicePlatform.csproj|solutionrelative:web_project\\models\\unitmaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{78DC5D4A-093D-4F86-BA64-79374E23E9BB}|WEB_PROJECT\\ServicePlatform.csproj|d:\\projects\\haier service center\\web_project\\models\\pos_itemmaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78DC5D4A-093D-4F86-BA64-79374E23E9BB}|WEB_PROJECT\\ServicePlatform.csproj|solutionrelative:web_project\\models\\pos_itemmaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78DC5D4A-093D-4F86-BA64-79374E23E9BB}|WEB_PROJECT\\ServicePlatform.csproj|d:\\projects\\haier service center\\web_project\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78DC5D4A-093D-4F86-BA64-79374E23E9BB}|WEB_PROJECT\\ServicePlatform.csproj|solutionrelative:web_project\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{78DC5D4A-093D-4F86-BA64-79374E23E9BB}|WEB_PROJECT\\ServicePlatform.csproj|d:\\projects\\haier service center\\web_project\\views\\possales\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{78DC5D4A-093D-4F86-BA64-79374E23E9BB}|WEB_PROJECT\\ServicePlatform.csproj|solutionrelative:web_project\\views\\possales\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78DC5D4A-093D-4F86-BA64-79374E23E9BB}|WEB_PROJECT\\ServicePlatform.csproj|d:\\projects\\haier service center\\web_project\\controllers\\pos_retailpricecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78DC5D4A-093D-4F86-BA64-79374E23E9BB}|WEB_PROJECT\\ServicePlatform.csproj|solutionrelative:web_project\\controllers\\pos_retailpricecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -55,90 +59,104 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\Projects\\Haier Service Center\\WEB_PROJECT\\Views\\ShowRooms\\Create.cshtml",
-              "RelativeDocumentMoniker": "WEB_PROJECT\\Views\\ShowRooms\\Create.cshtml",
-              "ToolTip": "D:\\Projects\\Haier Service Center\\WEB_PROJECT\\Views\\ShowRooms\\Create.cshtml",
-              "RelativeToolTip": "WEB_PROJECT\\Views\\ShowRooms\\Create.cshtml",
-              "ViewState": "AgIAAOsAAAAAAAAAAAAAAC8AAABRAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-02T13:16:45.836Z",
+              "Title": "EncryptedIdModelBinder.cs",
+              "DocumentMoniker": "D:\\Projects\\Haier Service Center\\WEB_PROJECT\\ServicePlatform.Security\\ModelBinders\\EncryptedIdModelBinder.cs",
+              "RelativeDocumentMoniker": "WEB_PROJECT\\ServicePlatform.Security\\ModelBinders\\EncryptedIdModelBinder.cs",
+              "ToolTip": "D:\\Projects\\Haier Service Center\\WEB_PROJECT\\ServicePlatform.Security\\ModelBinders\\EncryptedIdModelBinder.cs",
+              "RelativeToolTip": "WEB_PROJECT\\ServicePlatform.Security\\ModelBinders\\EncryptedIdModelBinder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-04T19:35:30.729Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\Projects\\Haier Service Center\\WEB_PROJECT\\Views\\ItemMasters\\Create.cshtml",
-              "RelativeDocumentMoniker": "WEB_PROJECT\\Views\\ItemMasters\\Create.cshtml",
-              "ToolTip": "D:\\Projects\\Haier Service Center\\WEB_PROJECT\\Views\\ItemMasters\\Create.cshtml",
-              "RelativeToolTip": "WEB_PROJECT\\Views\\ItemMasters\\Create.cshtml",
-              "ViewState": "AgIAADwAAAAAAAAAAAAAAF8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-01T21:33:16.212Z"
+              "Title": "ClickEventAuthorizationsController.cs",
+              "DocumentMoniker": "D:\\Projects\\Haier Service Center\\WEB_PROJECT\\Controllers\\ClickEventAuthorizationsController.cs",
+              "RelativeDocumentMoniker": "WEB_PROJECT\\Controllers\\ClickEventAuthorizationsController.cs",
+              "ToolTip": "D:\\Projects\\Haier Service Center\\WEB_PROJECT\\Controllers\\ClickEventAuthorizationsController.cs",
+              "RelativeToolTip": "WEB_PROJECT\\Controllers\\ClickEventAuthorizationsController.cs",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAqwJwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-04T19:05:33.394Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ShowRoomsController.cs",
-              "DocumentMoniker": "D:\\Projects\\Haier Service Center\\WEB_PROJECT\\Controllers\\ShowRoomsController.cs",
-              "RelativeDocumentMoniker": "WEB_PROJECT\\Controllers\\ShowRoomsController.cs",
-              "ToolTip": "D:\\Projects\\Haier Service Center\\WEB_PROJECT\\Controllers\\ShowRoomsController.cs",
-              "RelativeToolTip": "WEB_PROJECT\\Controllers\\ShowRoomsController.cs",
-              "ViewState": "AgIAAMwAAAAAAAAAAAAAAP8AAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-01T21:23:59.694Z",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Projects\\Haier Service Center\\WEB_PROJECT\\Views\\ClickEventAuthorizations\\Edit.cshtml",
+              "RelativeDocumentMoniker": "WEB_PROJECT\\Views\\ClickEventAuthorizations\\Edit.cshtml",
+              "ToolTip": "D:\\Projects\\Haier Service Center\\WEB_PROJECT\\Views\\ClickEventAuthorizations\\Edit.cshtml",
+              "RelativeToolTip": "WEB_PROJECT\\Views\\ClickEventAuthorizations\\Edit.cshtml",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAACUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-04T19:01:57.579Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ItemMaster.cs",
-              "DocumentMoniker": "D:\\Projects\\Haier Service Center\\WEB_PROJECT\\Models\\ItemMaster.cs",
-              "RelativeDocumentMoniker": "WEB_PROJECT\\Models\\ItemMaster.cs",
-              "ToolTip": "D:\\Projects\\Haier Service Center\\WEB_PROJECT\\Models\\ItemMaster.cs",
-              "RelativeToolTip": "WEB_PROJECT\\Models\\ItemMaster.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAAAAAAAAAAAA==",
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Projects\\Haier Service Center\\WEB_PROJECT\\Views\\ClickEventAuthorizations\\Create.cshtml",
+              "RelativeDocumentMoniker": "WEB_PROJECT\\Views\\ClickEventAuthorizations\\Create.cshtml",
+              "ToolTip": "D:\\Projects\\Haier Service Center\\WEB_PROJECT\\Views\\ClickEventAuthorizations\\Create.cshtml",
+              "RelativeToolTip": "WEB_PROJECT\\Views\\ClickEventAuthorizations\\Create.cshtml",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAAAHAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-04T19:01:51.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "POS_ItemMastersController.cs",
+              "DocumentMoniker": "D:\\Projects\\Haier Service Center\\WEB_PROJECT\\Controllers\\POS_ItemMastersController.cs",
+              "RelativeDocumentMoniker": "WEB_PROJECT\\Controllers\\POS_ItemMastersController.cs",
+              "ToolTip": "D:\\Projects\\Haier Service Center\\WEB_PROJECT\\Controllers\\POS_ItemMastersController.cs",
+              "RelativeToolTip": "WEB_PROJECT\\Controllers\\POS_ItemMastersController.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-01T21:17:03.464Z"
+              "WhenOpened": "2026-08-03T20:23:57.35Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "UnitMaster.cs",
-              "DocumentMoniker": "D:\\Projects\\Haier Service Center\\WEB_PROJECT\\Models\\UnitMaster.cs",
-              "RelativeDocumentMoniker": "WEB_PROJECT\\Models\\UnitMaster.cs",
-              "ToolTip": "D:\\Projects\\Haier Service Center\\WEB_PROJECT\\Models\\UnitMaster.cs",
-              "RelativeToolTip": "WEB_PROJECT\\Models\\UnitMaster.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Title": "POS_ItemMaster.cs",
+              "DocumentMoniker": "D:\\Projects\\Haier Service Center\\WEB_PROJECT\\Models\\POS_ItemMaster.cs",
+              "RelativeDocumentMoniker": "WEB_PROJECT\\Models\\POS_ItemMaster.cs",
+              "ToolTip": "D:\\Projects\\Haier Service Center\\WEB_PROJECT\\Models\\POS_ItemMaster.cs",
+              "RelativeToolTip": "WEB_PROJECT\\Models\\POS_ItemMaster.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-01T21:15:09.384Z"
+              "WhenOpened": "2026-08-03T20:30:35.472Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ItemMastersController.cs",
-              "DocumentMoniker": "D:\\Projects\\Haier Service Center\\WEB_PROJECT\\Controllers\\ItemMastersController.cs",
-              "RelativeDocumentMoniker": "WEB_PROJECT\\Controllers\\ItemMastersController.cs",
-              "ToolTip": "D:\\Projects\\Haier Service Center\\WEB_PROJECT\\Controllers\\ItemMastersController.cs",
-              "RelativeToolTip": "WEB_PROJECT\\Controllers\\ItemMastersController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "POS_RetailPriceController.cs",
+              "DocumentMoniker": "D:\\Projects\\Haier Service Center\\WEB_PROJECT\\Controllers\\POS_RetailPriceController.cs",
+              "RelativeDocumentMoniker": "WEB_PROJECT\\Controllers\\POS_RetailPriceController.cs",
+              "ToolTip": "D:\\Projects\\Haier Service Center\\WEB_PROJECT\\Controllers\\POS_RetailPriceController.cs",
+              "RelativeToolTip": "WEB_PROJECT\\Controllers\\POS_RetailPriceController.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAkwEAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-01T20:55:09.165Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-03T19:16:23.483Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\Projects\\Haier Service Center\\WEB_PROJECT\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "WEB_PROJECT\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\Projects\\Haier Service Center\\WEB_PROJECT\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "WEB_PROJECT\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-31T18:12:54.394Z",
-              "EditorCaption": ""
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Projects\\Haier Service Center\\WEB_PROJECT\\Views\\POSSales\\Create.cshtml",
+              "RelativeDocumentMoniker": "WEB_PROJECT\\Views\\POSSales\\Create.cshtml",
+              "ToolTip": "D:\\Projects\\Haier Service Center\\WEB_PROJECT\\Views\\POSSales\\Create.cshtml",
+              "RelativeToolTip": "WEB_PROJECT\\Views\\POSSales\\Create.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-03T18:30:57.725Z"
             }
           ]
         }

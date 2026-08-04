@@ -109,7 +109,11 @@ namespace ServicePlatform.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["UserId"] = new SelectList(_context.Users, "Id", "Id", clickEventAuthorization.UserId);
+            var controllerNames = ControllerDiscovery.GetControllerType().ToList();
+
+            ViewData["UserId"] = new SelectList(_context.Users, "Id", "Email", clickEventAuthorization.UserId);
+            ViewData["ControllerName"] = new SelectList(controllerNames);
+
             return View(clickEventAuthorization);
         }
 
@@ -120,13 +124,15 @@ namespace ServicePlatform.Controllers
             {
                 return NotFound();
             }
+            var controllerNames = ControllerDiscovery.GetControllerType().ToList();
 
             var clickEventAuthorization = await _context.ClickEventAuthorizations.FindAsync(id);
             if (clickEventAuthorization == null)
             {
                 return NotFound();
             }
-            ViewData["UserId"] = new SelectList(_context.Users, "Id", "Id", clickEventAuthorization.UserId);
+            ViewData["UserId"] = new SelectList(_context.Users, "Id", "Email", clickEventAuthorization.UserId);
+            ViewData["ControllerName"] = new SelectList(controllerNames);
             return View(clickEventAuthorization);
         }
 
@@ -146,7 +152,18 @@ namespace ServicePlatform.Controllers
             {
                 try
                 {
-                    _context.Update(clickEventAuthorization);
+                    var existingRecord = await _context.ClickEventAuthorizations
+                        .FirstOrDefaultAsync(x => x.Id == id);
+
+                    if (existingRecord == null)
+                    {
+                        return NotFound();
+                    }
+
+                    existingRecord.UserId = clickEventAuthorization.UserId;
+                    existingRecord.ControllerName = clickEventAuthorization.ControllerName;
+                    existingRecord.ActionName = clickEventAuthorization.ActionName;
+
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
@@ -162,7 +179,10 @@ namespace ServicePlatform.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["UserId"] = new SelectList(_context.Users, "Id", "Id", clickEventAuthorization.UserId);
+            var controllerNames = ControllerDiscovery.GetControllerType().ToList();
+
+            ViewData["UserId"] = new SelectList(_context.Users, "Id", "Email", clickEventAuthorization.UserId);
+            ViewData["ControllerName"] = new SelectList(controllerNames);
             return View(clickEventAuthorization);
         }
 

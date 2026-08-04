@@ -31,24 +31,47 @@ namespace ServicePlatform.Security.ModelBinders
                 var type = Nullable.GetUnderlyingType(bindingContext.ModelType)
                            ?? bindingContext.ModelType;
 
+                // If the value is already a plain number, don't decrypt it.
                 if (type == typeof(long))
                 {
-                    bindingContext.Result =
-                        ModelBindingResult.Success(_encryption.DecryptToLong(value));
+                    if (long.TryParse(value, out long longValue))
+                    {
+                        bindingContext.Result = ModelBindingResult.Success(longValue);
+                    }
+                    else
+                    {
+                        bindingContext.Result = ModelBindingResult.Success(_encryption.DecryptToLong(value));
+                    }
                 }
                 else if (type == typeof(int))
                 {
-                    bindingContext.Result =
-                        ModelBindingResult.Success(_encryption.DecryptToInt(value));
+                    if (int.TryParse(value, out int intValue))
+                    {
+                        bindingContext.Result = ModelBindingResult.Success(intValue);
+                    }
+                    else
+                    {
+                        bindingContext.Result = ModelBindingResult.Success(_encryption.DecryptToInt(value));
+                    }
                 }
                 else if (type == typeof(Guid))
                 {
-                    bindingContext.Result =
-                        ModelBindingResult.Success(_encryption.DecryptToGuid(value));
+                    if (Guid.TryParse(value, out Guid guidValue))
+                    {
+                        bindingContext.Result = ModelBindingResult.Success(guidValue);
+                    }
+                    else
+                    {
+                        bindingContext.Result = ModelBindingResult.Success(_encryption.DecryptToGuid(value));
+                    }
                 }
             }
-            catch
+            catch (Exception ex)
             {
+                bindingContext.ModelState.AddModelError(
+                    bindingContext.ModelName,
+                    $"Invalid encrypted value. {ex.Message}");
+
                 bindingContext.Result = ModelBindingResult.Failed();
             }
 

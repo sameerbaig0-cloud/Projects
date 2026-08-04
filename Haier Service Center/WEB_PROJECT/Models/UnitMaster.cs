@@ -16,6 +16,6 @@ namespace ServicePlatform.Models
         public bool IsActive { get; set; }
 
 
-        public virtual ICollection<ItemMaster> ItemMasters { get; set; } = new List<ItemMaster>();
+        public virtual ICollection<POS_ItemMaster> POS_ItemMasters { get; set; } = new List<POS_ItemMaster>();
     }
 }
