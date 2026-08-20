@@ -1,0 +1,99 @@
+﻿@model ShowRoom
+
+<h3>Edit Show Room</h3>
+
+<form asp-action="Edit">
+
+    <input type="hidden" asp-for="ShowRoomId" />
+
+    <input asp-for="Name" class="form-control mb-2" />
+    <input asp-for="City" class="form-control mb-2" />
+    <input asp-for="Phone" class="form-control mb-2" />
+    <input asp-for="Email" class="form-control mb-2" />
+    <input asp-for="GSTNumber" class="form-control mb-2" />
+
+    <label>Location</label>
+    <div id="map" style="height:400px;"></div>
+
+    <input asp-for="Latitude" id="Latitude" type="hidden" />
+    <input asp-for="Longitude" id="Longitude" type="hidden" />
+
+    <button type="submit" class="btn btn-primary mt-2">Update</button>
+</form>
+
+
+<script>
+
+    window.onload = function () {
+
+        navigator.geolocation.getCurrentPosition(
+
+            function (position) {
+
+                var lat = position.coords.latitude;
+                var lng = position.coords.longitude;
+
+                // Set hidden fields
+                document.getElementById("Latitude").value = lat;
+                document.getElementById("Longitude").value = lng;
+
+                // Show values
+                document.getElementById("latText").innerText = lat;
+                document.getElementById("lngText").innerText = lng;
+
+                // Create map
+                var map = L.map('map').setView([lat, lng], 15);
+
+                // Tile layer
+                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                    attribution: '&copy; OpenStreetMap contributors'
+                }).addTo(map);
+
+                // Draggable marker
+                var marker = L.marker([lat, lng], {
+                    draggable: true
+                }).addTo(map)
+                  .bindPopup('Your Location')
+                  .openPopup();
+
+                // Update when dragging
+                marker.on('dragend', function () {
+
+                    var pos = marker.getLatLng();
+
+                    document.getElementById("Latitude").value = pos.lat;
+                    document.getElementById("Longitude").value = pos.lng;
+
+                    document.getElementById("latText").innerText = pos.lat;
+                    document.getElementById("lngText").innerText = pos.lng;
+                });
+
+                // Optional: move marker on map click
+                map.on('click', function (e) {
+
+                    marker.setLatLng(e.latlng);
+
+                    document.getElementById("Latitude").value = e.latlng.lat;
+                    document.getElementById("Longitude").value = e.latlng.lng;
+
+                    document.getElementById("latText").innerText = e.latlng.lat;
+                    document.getElementById("lngText").innerText = e.latlng.lng;
+                });
+
+            },
+
+            function (error) {
+
+                alert("Location permission denied or unavailable.");
+
+                console.log(error);
+            }
+
+        );
+
+    };
+
+</script>
+
+
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>

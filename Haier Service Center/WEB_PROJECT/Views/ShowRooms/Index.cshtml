@@ -1,0 +1,152 @@
+﻿@model PaginatedList<ShowRoom>
+
+@{
+    ViewData["Title"] = "Show Rooms";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h3>Show Rooms</h3>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary btn-sm">Create Show Room</a>
+</p>
+
+
+@using (Html.BeginForm("Index", "ShowRooms", FormMethod.Get))
+{
+    <div class="row">
+        <div class="col-md-3">
+            <div class="form-group">
+                <label for="dateTime">Date:</label>
+                <input type="date" id="dateTime" name="dateTime" class="form-control" placeholder="Search by Date" />
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group">
+                <label for="CurrentFilter">Search:</label>
+                <input type="text" name="CurrentFilter" class="form-control" value="@ViewBag.CurrentFilter" />
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label for="PageSize">Page Size:</label>
+                <input type="number" name="PageSize" class="form-control" value="@ViewBag.PageSize" />
+            </div>
+        </div>
+        <div class="col-md-3 d-flex align-items-end">
+            <button type="submit" class="btn btn-primary">Search</button>
+            <p class="m-1"> | </p>
+            <a asp-action="Index" class="m-1">Back to Full List</a>
+        </div>
+    </div>
+}
+
+<link href="~/css/inputrange.css" rel="stylesheet" />
+
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.First().Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().City)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().Phone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().Latitude)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().IsActive)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.City)
+                </td>
+                <td>@item.Phone
+                    @Html.DisplayFor(modelItem => item.Phone)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                <td>
+                    @if (item.Latitude != null)
+                    {
+                        <a href="https://www.google.com/maps?q=@item.Latitude,@item.Longitude" target="_blank">
+                            View Map
+                        </a>
+                    }
+                </td>
+                <td>
+                    @Html.CheckBoxFor(modelItem => item.IsActive, new { disabled = "disabled" })
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@Encrypt.Encrypt(item.ShowRoomId)">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@Encrypt.Encrypt(item.ShowRoomId)">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@Encrypt.Encrypt(item.ShowRoomId)">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+
+
+@{
+    var prevDisabled = !Model.HasPreviousPage ? "disabled" : "";
+    var nextDisabled = !Model.HasNextPage ? "disabled" : "";
+}
+
+<a asp-action="Index"
+   asp-route-dateTime="@ViewData["DateTime"]"
+   asp-route-sortOrder="@ViewData["CurrentSort"]"
+   asp-route-pageNumber="@(Model.PageIndex - 1)"
+   asp-route-currentFilter="@ViewData["CurrentFilter"]"
+   asp-route-pageSize="@ViewData["PageSize"]"
+   class="btn btn-secondary @prevDisabled">
+    Previous
+</a>
+
+<a asp-action="Index"
+   asp-route-dateTime="@ViewData["DateTime"]"
+   asp-route-sortOrder="@ViewData["CurrentSort"]"
+   asp-route-pageNumber="@(Model.PageIndex + 1)"
+   asp-route-currentFilter="@ViewData["CurrentFilter"]"
+   asp-route-pageSize="@ViewData["PageSize"]"
+   class="btn btn-secondary @nextDisabled">
+    Next
+</a>
+
+@section Scripts {
+
+    <script>
+        $(document).ready(function () {
+            $("#pageSize").change(function () {
+                $("form").submit(); // Submit the form after updating page size
+            });
+        });
+    </script>
+
+
+
+}
+
+
+<script src="~/js/inputrange.js"></script>

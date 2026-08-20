@@ -1,0 +1,74 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+<style>
+	.navbar-nav {
+		width: -webkit-fill-available;
+	}
+
+	.user-menu {
+		list-style: none;
+	}
+
+</style>
+
+
+<ul class="navbar-nav">
+
+	@if (SignInManager.IsSignedIn(User))
+	{
+		//Here i am calling MyMenuViewComponent to invoke and display the partial page
+		@await Component.InvokeAsync("MyMenu")
+	}
+	else
+	{
+		@* 	<li class="nav-item">
+	<a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Register">Register</a>
+	</li> *@
+		<li class="nav-item">
+			<a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Login">Login</a>
+		</li>
+	}
+
+
+	@if (SignInManager.IsSignedIn(User))
+	{
+		<ul class="navbar-nav" style="width: -webkit-fill-available; display: contents;">
+			<li class="nav-item">
+				@if (UserManager.GetUserAsync(User).Result.ProfilePicture != null)
+				{
+					<img style="width:40px;height:40px; object-fit:cover; border-radius:30px" src="data:image/*;base64,@(Convert.ToBase64String(UserManager.GetUserAsync(User).Result.ProfilePicture))">
+				}
+			</li>
+			@* <li class="nav-item dropdown">
+				<a></a>
+				<ul class="dropdown-menu">
+					<li class="nav-item">
+						<a class="nav-link" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @User.Identity.Name!</a>
+					</li>
+					<li class="nav-item">
+						<form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+							<button type="submit" class="nav-link btn btn-link">Logout</button>
+						</form>
+					</li>
+				</ul>
+			</li> *@
+
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Hello @User.Identity.Name!
+				</a>
+				<ul class="dropdown-menu" style="right: 5px; top: 45px;">
+					<a class="dropdown-item" href="/Identity/Account/Manage">Manage</a>
+					<div class="dropdown-divider"></div>
+					<form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+						<button type="submit" class="nav-link btn btn-link" style="padding: .25rem 1rem;  height: inherit;">Logout</button>
+					</form>
+				</ul>
+			</li>
+
+		</ul>
+	}
+
+</ul>
