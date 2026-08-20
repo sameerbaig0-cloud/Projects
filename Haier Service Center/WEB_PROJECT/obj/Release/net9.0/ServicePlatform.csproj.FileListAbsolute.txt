@@ -8442,3 +8442,14 @@ D:\Projects\GitHub\Haier Service Center\WEB_PROJECT\obj\Release\net9.0\refint\Se
 D:\Projects\GitHub\Haier Service Center\WEB_PROJECT\obj\Release\net9.0\ServicePlatform.pdb
 D:\Projects\GitHub\Haier Service Center\WEB_PROJECT\obj\Release\net9.0\ServicePlatform.genruntimeconfig.cache
 D:\Projects\GitHub\Haier Service Center\WEB_PROJECT\obj\Release\net9.0\ref\ServicePlatform.dll
+D:\GitHub\Haier Service Center\WEB_PROJECT\obj\Release\net9.0\ServicePlatform.csproj.AssemblyReference.cache
+D:\GitHub\Haier Service Center\WEB_PROJECT\obj\Release\net9.0\rpswa.dswa.cache.json
+D:\GitHub\Haier Service Center\WEB_PROJECT\obj\Release\net9.0\ServicePlatform.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\Haier Service Center\WEB_PROJECT\obj\Release\net9.0\ServicePlatform.AssemblyInfoInputs.cache
+D:\GitHub\Haier Service Center\WEB_PROJECT\obj\Release\net9.0\ServicePlatform.AssemblyInfo.cs
+D:\GitHub\Haier Service Center\WEB_PROJECT\obj\Release\net9.0\ServicePlatform.csproj.CoreCompileInputs.cache
+D:\GitHub\Haier Service Center\WEB_PROJECT\obj\Release\net9.0\ServicePlatform.MvcApplicationPartsAssemblyInfo.cs
+D:\GitHub\Haier Service Center\WEB_PROJECT\obj\Release\net9.0\ServicePlatform.MvcApplicationPartsAssemblyInfo.cache
+D:\GitHub\Haier Service Center\WEB_PROJECT\obj\Release\net9.0\ServicePlatform.RazorAssemblyInfo.cache
+D:\GitHub\Haier Service Center\WEB_PROJECT\obj\Release\net9.0\ServicePlatform.RazorAssemblyInfo.cs
+D:\GitHub\Haier Service Center\WEB_PROJECT\obj\Release\net9.0\ServicePlatform.sourcelink.json

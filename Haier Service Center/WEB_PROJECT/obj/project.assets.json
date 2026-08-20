@@ -11164,23 +11164,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Afnan MS\\.nuget\\packages\\": {},
+    "D:\\NuGetCache": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\Haier Service Center\\WEB_PROJECT\\ServicePlatform.csproj",
+      "projectUniqueName": "D:\\GitHub\\Haier Service Center\\WEB_PROJECT\\ServicePlatform.csproj",
       "projectName": "ServicePlatform",
-      "projectPath": "D:\\Projects\\Haier Service Center\\WEB_PROJECT\\ServicePlatform.csproj",
-      "packagesPath": "C:\\Users\\Afnan MS\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\Haier Service Center\\WEB_PROJECT\\obj\\",
+      "projectPath": "D:\\GitHub\\Haier Service Center\\WEB_PROJECT\\ServicePlatform.csproj",
+      "packagesPath": "D:\\NuGetCache",
+      "outputPath": "D:\\GitHub\\Haier Service Center\\WEB_PROJECT\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Afnan MS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -11189,7 +11189,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -11324,7 +11323,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.316/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.314/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
